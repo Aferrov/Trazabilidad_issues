@@ -1,0 +1,48 @@
+# Archivo de colores para extensiones de archivo
+# Formato: extensión color_hex
+# Evitando tonalidades rojas para no confundir con issues
+
+# Código fuente - tonos azules y verdes
+cpp 0066FF
+h 00AAFF
+c 0088FF
+hpp 0099FF
+
+# Configuración - tonos verdes
+conf 00FF00
+config 00FF00
+cfg 00FF00
+ini 00CC00
+yaml 00DD00
+yml 00DD00
+json 00EE00
+
+# Scripts - tonos amarillos
+py FFFF00
+pl FFDD00
+rb FFD700
+sh FFCC00
+
+# Documentación - tonos cyan
+md 00FFFF
+txt 00DDDD
+rst 00CCCC
+1 00EEEE
+
+# Build/Make - tonos morados
+am 9966FF
+ac 9966FF
+m4 AA77FF
+in 8855EE
+
+# Gráficos - tonos naranjas
+png FFAA00
+tga FFBB00
+bmp FF9900
+xcf FF8800
+
+# Otros
+log 888888
+gitignore 666666
+style AAAAAA
+cbp BBBBBB

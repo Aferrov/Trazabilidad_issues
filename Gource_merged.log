@@ -1,0 +1,2875 @@
+1252643112|Andrew Caudwell|A|/.gitignore|888888
+1252643112|Andrew Caudwell|A|/COPYING
+1252643112|Andrew Caudwell|A|/INSTALL
+1252643112|Andrew Caudwell|A|/Makefile.in|7744DD
+1252643112|Andrew Caudwell|A|/README
+1252643112|Andrew Caudwell|A|/README-SDL
+1252643112|Andrew Caudwell|A|/THANKS
+1252643112|Andrew Caudwell|A|/aclocal.m4|8855EE
+1252643112|Andrew Caudwell|A|/configure
+1252643112|Andrew Caudwell|A|/configure.ac|AA77FF
+1252643112|Andrew Caudwell|A|/gource.win32.cbp
+1252643112|Andrew Caudwell|A|/m4/acx_pthread.m4|8855EE
+1252643112|Andrew Caudwell|A|/m4/ax_check_gl.m4|8855EE
+1252643112|Andrew Caudwell|A|/m4/ax_check_glu.m4|8855EE
+1252643112|Andrew Caudwell|A|/m4/ax_check_glut.m4|8855EE
+1252643112|Andrew Caudwell|A|/m4/ax_lang_compiler_ms.m4|8855EE
+1252643112|Andrew Caudwell|A|/m4/freetype2.m4|8855EE
+1252643112|Andrew Caudwell|A|/src/.gitignore|888888
+1252643112|Andrew Caudwell|A|/src/Makefile.in|7744DD
+1252643112|Andrew Caudwell|A|/src/action.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/action.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/commitlog.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/commitlog.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/.gitignore|888888
+1252643112|Andrew Caudwell|A|/src/core/Makefile.in|7744DD
+1252643112|Andrew Caudwell|A|/src/core/bounds.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/camera.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/camera.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/display.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/display.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/extensions.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/extensions.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/frustum.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/frustum.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/fxfont.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/fxfont.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/logger.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/logger.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/pi.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/plane.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/plane.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/quadtree.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/quadtree.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/regex.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/regex.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/resource.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/resource.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/sdlapp.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/sdlapp.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/seeklog.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/seeklog.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/stringhash.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/stringhash.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/texture.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/core/texture.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/core/vectors.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/custom.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/custom.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/cvs-exp.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/cvs-exp.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/dirnode.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/dirnode.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/file.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/file.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/git.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/git.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/gource.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/gource.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/main.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/main.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/pawn.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/pawn.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/slider.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/slider.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/spline.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/spline.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/user.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/user.h|00AAFF
+1252643112|Andrew Caudwell|A|/src/zoomcamera.cpp|0066FF
+1252643112|Andrew Caudwell|A|/src/zoomcamera.h|00AAFF
+1252663673|unknown|A|/data/gource.1|00EEEE
+1252663705|unknown|A|/data/beam.png
+1252663705|unknown|A|/data/file.png
+1252663705|unknown|A|/data/no_photo.png
+1252663845|unknown|A|/data/fonts/FreeSans.ttf
+1252663845|unknown|A|/data/fonts/README
+1252663845|unknown|M|/src/file.cpp|0066FF
+1252663845|unknown|M|/src/gource.cpp|0066FF
+1252663845|unknown|M|/src/gource.h|00AAFF
+1252663845|unknown|M|/src/slider.cpp|0066FF
+1252663845|unknown|M|/src/user.cpp|0066FF
+1252664414|Andrew Caudwell|M|/.gitignore|888888
+1252664562|Andrew Caudwell|M|/gource.win32.cbp
+1252887720|Andrew Caudwell|M|/Makefile.in|7744DD
+1252891208|Andrew Caudwell|A|/config.guess
+1252891208|Andrew Caudwell|A|/config.sub
+1252891208|Andrew Caudwell|A|/install-sh
+1252891232|Andrew Caudwell|M|/.gitignore|888888
+1252894038|Brenda Wallace|M|/README
+1252897132|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1252897490|Andrew Caudwell|M|/README
+1252898680|Andrew Caudwell|M|/README
+1252898680|Andrew Caudwell|M|/data/gource.1|00EEEE
+1252901581|Andrew Caudwell|M|/README
+1252901581|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253053036|Andrew Caudwell|M|/README
+1253053036|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253073291|Andrew Caudwell|A|/debian/changelog
+1253073291|Andrew Caudwell|A|/debian/compat
+1253073291|Andrew Caudwell|A|/debian/control
+1253073291|Andrew Caudwell|A|/debian/copyright
+1253073291|Andrew Caudwell|A|/debian/dirs
+1253073291|Andrew Caudwell|A|/debian/docs
+1253073291|Andrew Caudwell|A|/debian/rules
+1253080227|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253080227|Andrew Caudwell|M|/src/git.h|00AAFF
+1253080620|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253080645|Andrew Caudwell|M|/README
+1253080645|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253081398|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253082096|Andrew Caudwell|M|/debian/changelog
+1253090049|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253091870|Johannes Schindelin|M|/src/core/display.cpp|0066FF
+1253091870|Johannes Schindelin|M|/src/core/display.h|00AAFF
+1253091937|Johannes Schindelin|M|/src/core/fxfont.cpp|0066FF
+1253091954|Andrew Caudwell|M|/src/core/texture.cpp|0066FF
+1253103236|Johannes Schindelin|M|/src/gource.cpp|0066FF
+1253103236|Johannes Schindelin|M|/src/main.cpp|0066FF
+1253103237|Johannes Schindelin|M|/src/main.cpp|0066FF
+1253111993|Johannes Schindelin|M|/src/git.cpp|0066FF
+1253111993|Johannes Schindelin|M|/.gitignore|888888
+1253160337|Andrew Caudwell|M|/src/main.cpp|0066FF
+1253162099|Andrew Caudwell|M|/README
+1253162099|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253162099|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253162477|Andrew Caudwell|M|/README
+1253171500|Andrew Caudwell|M|/README
+1253171500|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253174249|Andrew Caudwell|M|/README
+1253174334|Andrew Caudwell|A|/README.win32.txt|00DDDD
+1253224105|Johannes Schindelin|M|/README
+1253224105|Johannes Schindelin|M|/src/git.cpp|0066FF
+1253224129|Johannes Schindelin|M|/src/git.cpp|0066FF
+1253224133|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253224921|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253224921|Andrew Caudwell|M|/src/git.h|00AAFF
+1253233190|Alex Riesen|M|/src/Makefile.in|7744DD
+1253233190|Alex Riesen|M|/src/core/Makefile.in|7744DD
+1253233232|Alex Riesen|M|/src/Makefile.in|7744DD
+1253233232|Alex Riesen|M|/src/core/Makefile.in|7744DD
+1253237290|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253237368|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253242529|Andrew Caudwell|M|/src/main.cpp|0066FF
+1253242585|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1253242585|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253262823|Andrew Caudwell|M|/README
+1253262823|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253262823|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1253262823|Andrew Caudwell|M|/src/core/seeklog.cpp|0066FF
+1253262823|Andrew Caudwell|M|/src/core/seeklog.h|00AAFF
+1253262823|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253262823|Andrew Caudwell|M|/src/gource.h|00AAFF
+1253262823|Andrew Caudwell|M|/src/main.cpp|0066FF
+1253264030|Andrew Caudwell|M|/README
+1253264030|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253264358|Andrew Caudwell|M|/README
+1253275081|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253276287|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253276566|Andrew Caudwell|M|/README.win32.txt|00DDDD
+1253276922|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253278558|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253314352|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253314395|Andrew Caudwell|D|/README.win32.txt|00DDDD
+1253314395|Andrew Caudwell|M|/src/main.cpp|0066FF
+1253328589|Andrew Caudwell|A|/README.win32.txt|00DDDD
+1253338305|Andrew Caudwell|M|/src/main.cpp|0066FF
+1253338469|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253338469|Andrew Caudwell|M|/src/gource.h|00AAFF
+1253338559|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1253338694|Andrew Caudwell|D|/README.win32.txt|00DDDD
+1253340423|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253340423|Andrew Caudwell|M|/src/main.cpp|0066FF
+1253399061|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253399144|Andrew Caudwell|M|/src/main.cpp|0066FF
+1253400239|Ferry Huberts|M|/.gitignore|888888
+1253435659|Andrew Caudwell|M|/src/cvs-exp.cpp|0066FF
+1253435771|Andrew Caudwell|A|/src/gitraw.cpp|0066FF
+1253435771|Andrew Caudwell|A|/src/gitraw.h|00AAFF
+1253436057|Andrew Caudwell|M|/README
+1253436057|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253436057|Andrew Caudwell|M|/src/main.cpp|0066FF
+1253436077|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253436077|Andrew Caudwell|M|/src/gource.h|00AAFF
+1253436189|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1253436189|Andrew Caudwell|M|/src/commitlog.h|00AAFF
+1253436189|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253436189|Andrew Caudwell|M|/src/git.h|00AAFF
+1253436512|Andrew Caudwell|M|/README
+1253436958|Andrew Caudwell|M|/src/Makefile.in|7744DD
+1253437152|Andrew Caudwell|M|/gource.win32.cbp
+1253449800|Andrew Caudwell|M|/README
+1253449800|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253449800|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253449800|Andrew Caudwell|M|/src/main.cpp|0066FF
+1253449800|Andrew Caudwell|M|/src/zoomcamera.cpp|0066FF
+1253449800|Andrew Caudwell|M|/src/zoomcamera.h|00AAFF
+1253513107|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253574195|Andrew Caudwell|M|/debian/copyright
+1253574195|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1253574195|Andrew Caudwell|M|/src/commitlog.h|00AAFF
+1253574195|Andrew Caudwell|A|/src/core/utf8/checked.h|00AAFF
+1253574195|Andrew Caudwell|A|/src/core/utf8/core.h|00AAFF
+1253574195|Andrew Caudwell|A|/src/core/utf8/unchecked.h|00AAFF
+1253574195|Andrew Caudwell|A|/src/core/utf8/utf8.h|00AAFF
+1253574518|Andrew Caudwell|M|/README
+1253591044|Andrew Caudwell|M|/Makefile.in|7744DD
+1253591044|Andrew Caudwell|M|/README
+1253591044|Andrew Caudwell|M|/configure
+1253591044|Andrew Caudwell|M|/configure.ac|AA77FF
+1253591044|Andrew Caudwell|M|/debian/changelog
+1253591044|Andrew Caudwell|M|/src/core/Makefile.in|7744DD
+1253591044|Andrew Caudwell|M|/src/core/display.cpp|0066FF
+1253602221|Andrew Caudwell|M|/.gitignore|888888
+1253602221|Andrew Caudwell|A|/dev/.gitignore|888888
+1253602221|Andrew Caudwell|A|/dev/bin/build_tar.pl|FFDD00
+1253602298|Andrew Caudwell|M|/src/core/utf8/utf8.h|00AAFF
+1253604345|Andrew Caudwell|M|/src/main.cpp|0066FF
+1253604384|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1253604513|Andrew Caudwell|M|/gource.win32.cbp
+1253605753|Andrew Caudwell|A|/dev/bin/build_win32.pl|FFDD00
+1253697475|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1253763643|Francois Marier|M|/data/gource.1|00EEEE
+1253764253|Sebastian Hahn|M|/README
+1253772147|Andrew Caudwell|M|/src/git.cpp|0066FF
+1253772267|Andrew Caudwell|M|/README
+1253772267|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253772386|Andrew Caudwell|M|/debian/changelog
+1253772386|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1253772386|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1253782586|Andrew Caudwell|M|/README
+1253782586|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253784836|Andrew Caudwell|M|/README
+1253784836|Andrew Caudwell|M|/data/gource.1|00EEEE
+1253785245|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1253785245|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1253785371|Andrew Caudwell|M|/debian/changelog
+1254092513|Andrew Caudwell|M|/README
+1254092513|Andrew Caudwell|M|/data/gource.1|00EEEE
+1254214153|Andrew Caudwell|M|/src/action.cpp|0066FF
+1254214153|Andrew Caudwell|M|/src/action.h|00AAFF
+1254214153|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1254214153|Andrew Caudwell|M|/src/gource.h|00AAFF
+1254214153|Andrew Caudwell|M|/src/main.cpp|0066FF
+1254214153|Andrew Caudwell|M|/src/user.cpp|0066FF
+1254214153|Andrew Caudwell|M|/src/user.h|00AAFF
+1254214985|Andrew Caudwell|M|/src/user.cpp|0066FF
+1254269900|Jeff King|M|/src/git.cpp|0066FF
+1254275903|Andrew Caudwell|M|/README
+1254290713|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1254290850|Andrew Caudwell|M|/README
+1254290850|Andrew Caudwell|M|/aclocal.m4|8855EE
+1254290850|Andrew Caudwell|M|/configure
+1254290850|Andrew Caudwell|M|/configure.ac|AA77FF
+1254290850|Andrew Caudwell|A|/m4/sdl.m4|8855EE
+1254290850|Andrew Caudwell|M|/src/Makefile.in|7744DD
+1254290850|Andrew Caudwell|M|/src/core/extensions.h|00AAFF
+1254290850|Andrew Caudwell|M|/src/core/sdlapp.h|00AAFF
+1254290850|Andrew Caudwell|M|/src/core/texture.h|00AAFF
+1254292795|Andrew Caudwell|M|/README
+1254292795|Andrew Caudwell|M|/src/Makefile.in|7744DD
+1254292795|Andrew Caudwell|M|/src/core/Makefile.in|7744DD
+1254348432|Andrew Caudwell|M|/src/core/display.cpp|0066FF
+1254370804|Andrew Caudwell|M|/src/user.cpp|0066FF
+1254371172|Andrew Caudwell|M|/README
+1254371172|Andrew Caudwell|M|/aclocal.m4|8855EE
+1254371172|Andrew Caudwell|M|/configure
+1254371172|Andrew Caudwell|M|/configure.ac|AA77FF
+1254371172|Andrew Caudwell|A|/m4/pkg.m4|8855EE
+1254371172|Andrew Caudwell|M|/src/core/fxfont.h|00AAFF
+1254431913|Andrew Caudwell|M|/README
+1254431913|Andrew Caudwell|M|/configure
+1254431913|Andrew Caudwell|M|/configure.ac|AA77FF
+1254436132|Andrew Caudwell|M|/README
+1254529137|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1254529385|Andrew Caudwell|M|/src/core/extensions.h|00AAFF
+1254529385|Andrew Caudwell|M|/src/core/fxfont.h|00AAFF
+1254529385|Andrew Caudwell|M|/src/core/sdlapp.h|00AAFF
+1254529385|Andrew Caudwell|M|/src/core/texture.h|00AAFF
+1254530890|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1254530890|Andrew Caudwell|M|/src/gource.h|00AAFF
+1254784029|Andrew Caudwell|M|/README
+1254784029|Andrew Caudwell|M|/data/gource.1|00EEEE
+1254784029|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1254784029|Andrew Caudwell|M|/src/main.cpp|0066FF
+1254784029|Andrew Caudwell|M|/src/user.cpp|0066FF
+1254784029|Andrew Caudwell|M|/src/user.h|00AAFF
+1254826112|Andrew Caudwell|M|/gource.win32.cbp
+1254826112|Andrew Caudwell|A|/src/apache.cpp|0066FF
+1254826112|Andrew Caudwell|A|/src/apache.h|00AAFF
+1254826112|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1254826112|Andrew Caudwell|M|/src/gource.h|00AAFF
+1254826112|Andrew Caudwell|M|/src/main.cpp|0066FF
+1254874676|Andrew Caudwell|M|/src/Makefile.in|7744DD
+1254874676|Andrew Caudwell|M|/src/apache.cpp|0066FF
+1255302974|Andrew Caudwell|M|/src/apache.cpp|0066FF
+1255310262|Johannes Schindelin|M|/README
+1255310262|Johannes Schindelin|M|/configure
+1255310262|Johannes Schindelin|M|/configure.ac|AA77FF
+1255310262|Johannes Schindelin|M|/src/Makefile.in|7744DD
+1255310262|Johannes Schindelin|A|/src/ffmpeg.cpp|0066FF
+1255310262|Johannes Schindelin|A|/src/ffmpeg.h|00AAFF
+1255310262|Johannes Schindelin|M|/src/gource.cpp|0066FF
+1255310262|Johannes Schindelin|M|/src/gource.h|00AAFF
+1255310262|Johannes Schindelin|M|/src/main.cpp|0066FF
+1255312773|Andrew Caudwell|M|/README
+1255312773|Andrew Caudwell|M|/configure
+1255312773|Andrew Caudwell|M|/configure.ac|AA77FF
+1255312773|Andrew Caudwell|M|/src/ffmpeg.cpp|0066FF
+1255324688|Andrew Caudwell|M|/README
+1255324688|Andrew Caudwell|M|/data/gource.1|00EEEE
+1255324688|Andrew Caudwell|M|/src/ffmpeg.cpp|0066FF
+1255324688|Andrew Caudwell|M|/src/ffmpeg.h|00AAFF
+1255324688|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1255324688|Andrew Caudwell|M|/src/main.cpp|0066FF
+1255471390|Andrew Caudwell|M|/src/ffmpeg.cpp|0066FF
+1255471390|Andrew Caudwell|M|/src/ffmpeg.h|00AAFF
+1255471390|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1255471390|Andrew Caudwell|M|/src/gource.h|00AAFF
+1255471390|Andrew Caudwell|M|/src/main.cpp|0066FF
+1255472783|Andrew Caudwell|M|/configure
+1255472783|Andrew Caudwell|M|/configure.ac|AA77FF
+1255472783|Andrew Caudwell|M|/src/ffmpeg.cpp|0066FF
+1255472783|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1255495168|Andrew Caudwell|M|/README
+1255495168|Andrew Caudwell|M|/data/gource.1|00EEEE
+1255495168|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1255495168|Andrew Caudwell|M|/src/gource.h|00AAFF
+1255495168|Andrew Caudwell|M|/src/main.cpp|0066FF
+1255575529|Andrew Caudwell|M|/README
+1255575529|Andrew Caudwell|M|/data/gource.1|00EEEE
+1255575529|Andrew Caudwell|M|/src/ffmpeg.cpp|0066FF
+1255575529|Andrew Caudwell|M|/src/ffmpeg.h|00AAFF
+1255575529|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1255575529|Andrew Caudwell|M|/src/gource.h|00AAFF
+1255575529|Andrew Caudwell|M|/src/main.cpp|0066FF
+1255580160|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1255580160|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1255580174|Andrew Caudwell|M|/README
+1255580174|Andrew Caudwell|M|/data/gource.1|00EEEE
+1255580174|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1255662187|Andrew Caudwell|M|/configure
+1255662187|Andrew Caudwell|M|/configure.ac|AA77FF
+1255998595|Andrew Caudwell|M|/README
+1255998595|Andrew Caudwell|M|/configure
+1255998595|Andrew Caudwell|M|/configure.ac|AA77FF
+1255998595|Andrew Caudwell|M|/data/gource.1|00EEEE
+1255998595|Andrew Caudwell|M|/src/Makefile.in|7744DD
+1255998595|Andrew Caudwell|D|/src/ffmpeg.cpp|0066FF
+1255998595|Andrew Caudwell|D|/src/ffmpeg.h|00AAFF
+1255998595|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1255998595|Andrew Caudwell|M|/src/gource.h|00AAFF
+1255998595|Andrew Caudwell|M|/src/main.cpp|0066FF
+1255998595|Andrew Caudwell|A|/src/ppm.cpp|0066FF
+1255998595|Andrew Caudwell|A|/src/ppm.h|00AAFF
+1256013482|Andrew Caudwell|M|/gource.win32.cbp
+1256018404|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1256018404|Andrew Caudwell|M|/src/main.cpp|0066FF
+1256018404|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1256033644|Andrew Caudwell|M|/README
+1256075398|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1256075398|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1256075398|Andrew Caudwell|M|/src/gource.h|00AAFF
+1256075434|Andrew Caudwell|M|/debian/changelog
+1256075434|Andrew Caudwell|M|/debian/control
+1256075434|Andrew Caudwell|M|/debian/copyright
+1256075481|Andrew Caudwell|M|/README
+1256075481|Andrew Caudwell|M|/data/gource.1|00EEEE
+1256075481|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1256085934|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1256088176|Andrew Caudwell|M|/README
+1256088176|Andrew Caudwell|M|/data/gource.1|00EEEE
+1256088176|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1256088176|Andrew Caudwell|M|/src/gource.h|00AAFF
+1256088176|Andrew Caudwell|M|/src/main.cpp|0066FF
+1256088731|Andrew Caudwell|M|/README
+1256092704|Andrew Caudwell|M|/src/core/texture.cpp|0066FF
+1256095737|Andrew Caudwell|M|/README
+1256095737|Andrew Caudwell|M|/data/gource.1|00EEEE
+1256158570|Andrew Caudwell|M|/README
+1256158570|Andrew Caudwell|M|/data/gource.1|00EEEE
+1256252030|Andrew Caudwell|M|/configure
+1256252030|Andrew Caudwell|M|/configure.ac|AA77FF
+1256698540|Andrew Caudwell|M|/src/core/seeklog.cpp|0066FF
+1256863241|Andrew Caudwell|M|/configure
+1256863241|Andrew Caudwell|M|/configure.ac|AA77FF
+1256864429|Andrew Caudwell|M|/README
+1256864429|Andrew Caudwell|M|/data/gource.1|00EEEE
+1256864429|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1256864429|Andrew Caudwell|M|/src/main.cpp|0066FF
+1256864429|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1256864429|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1256864429|Andrew Caudwell|M|/src/user.cpp|0066FF
+1256864429|Andrew Caudwell|M|/src/user.h|00AAFF
+1257201636|Andrew Caudwell|M|/configure
+1257201636|Andrew Caudwell|M|/configure.ac|AA77FF
+1257202022|Andrew Caudwell|M|/README
+1257202022|Andrew Caudwell|M|/src/gource.h|00AAFF
+1257281383|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1257546544|Andrew Caudwell|M|/README
+1257546544|Andrew Caudwell|M|/src/commitlog.h|00AAFF
+1257546544|Andrew Caudwell|M|/src/git.cpp|0066FF
+1257546544|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1257575481|Andrew Caudwell|M|/src/core/extensions.h|00AAFF
+1257575481|Andrew Caudwell|M|/src/core/sdlapp.h|00AAFF
+1257575481|Andrew Caudwell|M|/src/core/texture.h|00AAFF
+1257819288|Andrew Caudwell|M|/configure
+1257819288|Andrew Caudwell|M|/configure.ac|AA77FF
+1257825965|Andrew Caudwell|M|/README
+1257980295|Pat Notz|M|/README
+1257980295|Pat Notz|M|/src/gource.cpp|0066FF
+1257980295|Pat Notz|M|/src/gource.h|00AAFF
+1257980295|Pat Notz|M|/src/main.cpp|0066FF
+1258018448|Andrew Caudwell|M|/README
+1258018448|Andrew Caudwell|M|/data/gource.1|00EEEE
+1258018448|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1258018448|Andrew Caudwell|M|/src/main.cpp|0066FF
+1258166187|Andrew Caudwell|M|/README
+1258166187|Andrew Caudwell|M|/data/gource.1|00EEEE
+1258166765|Andrew Caudwell|M|/debian/changelog
+1258347501|Andrew Caudwell|M|/README
+1258347501|Andrew Caudwell|M|/src/cvs-exp.cpp|0066FF
+1258355286|Andrew Caudwell|M|/configure
+1258355286|Andrew Caudwell|M|/configure.ac|AA77FF
+1258408132|Cameron Hart|M|/src/gource.cpp|0066FF
+1258408132|Cameron Hart|M|/src/gource.h|00AAFF
+1258410238|Andrew Caudwell|M|/README
+1258410238|Andrew Caudwell|M|/data/gource.1|00EEEE
+1258410238|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1258959749|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1258959749|Andrew Caudwell|M|/src/gource.h|00AAFF
+1259114939|Andrew Caudwell|M|/debian/changelog
+1259114939|Andrew Caudwell|M|/src/gource.h|00AAFF
+1259116054|Andrew Caudwell|M|/README
+1259116054|Andrew Caudwell|M|/data/gource.1|00EEEE
+1259293132|Andrew Caudwell|M|/README
+1259293132|Andrew Caudwell|M|/debian/changelog
+1259293132|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1259293132|Andrew Caudwell|M|/src/gource.h|00AAFF
+1259616329|Andrew Caudwell|A|/contrib/svn-gource.py|FFFF00
+1259616429|Andrew Caudwell|A|/contrib/mercurial-gource.py|FFFF00
+1259616514|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1259617898|Andrew Caudwell|M|/README
+1259617898|Andrew Caudwell|M|/src/commitlog.h|00AAFF
+1259617898|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1259617898|Andrew Caudwell|M|/src/gource.h|00AAFF
+1260432921|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1260432921|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1260432921|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1260432921|Andrew Caudwell|M|/src/gource.h|00AAFF
+1260432921|Andrew Caudwell|M|/src/main.cpp|0066FF
+1260492099|Andrew Caudwell|A|/data/bloom.tga
+1260492099|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1260492099|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1260492099|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1260492099|Andrew Caudwell|M|/src/gource.h|00AAFF
+1260492099|Andrew Caudwell|M|/src/main.cpp|0066FF
+1260503876|Andrew Caudwell|A|/ChangeLog
+1260503876|Andrew Caudwell|M|/README
+1260503927|Andrew Caudwell|M|/configure.ac|AA77FF
+1260503978|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1260503978|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1260504802|Andrew Caudwell|M|/README
+1260504802|Andrew Caudwell|M|/data/gource.1|00EEEE
+1260505038|Andrew Caudwell|M|/Makefile.in|7744DD
+1260505078|Andrew Caudwell|M|/src/action.cpp|0066FF
+1260505105|Andrew Caudwell|M|/src/main.cpp|0066FF
+1260505160|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1260505160|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1260505160|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1260505160|Andrew Caudwell|M|/src/gource.h|00AAFF
+1260509178|Andrew Caudwell|M|/ChangeLog
+1260509178|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1260576735|Andrew Caudwell|M|/configure
+1260576858|Andrew Caudwell|M|/src/core/display.cpp|0066FF
+1260576858|Andrew Caudwell|M|/src/core/display.h|00AAFF
+1260576858|Andrew Caudwell|M|/src/core/sdlapp.cpp|0066FF
+1260576858|Andrew Caudwell|M|/src/core/sdlapp.h|00AAFF
+1260577085|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1260577085|Andrew Caudwell|M|/src/commitlog.h|00AAFF
+1260577085|Andrew Caudwell|M|/src/git.cpp|0066FF
+1260577202|Andrew Caudwell|A|/data/gource.style
+1260577262|Andrew Caudwell|M|/src/custom.cpp|0066FF
+1260577290|Andrew Caudwell|M|/src/Makefile.in|7744DD
+1260577290|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1260577290|Andrew Caudwell|M|/src/gource.h|00AAFF
+1260577290|Andrew Caudwell|A|/src/hg.cpp|0066FF
+1260577290|Andrew Caudwell|A|/src/hg.h|00AAFF
+1260577290|Andrew Caudwell|M|/src/main.cpp|0066FF
+1260578387|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1260578387|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1260578427|Andrew Caudwell|M|/ChangeLog
+1260578427|Andrew Caudwell|M|/README
+1260578427|Andrew Caudwell|M|/data/gource.1|00EEEE
+1260579011|Andrew Caudwell|M|/Makefile.in|7744DD
+1260579147|Andrew Caudwell|M|/debian/changelog
+1260582201|Andrew Caudwell|M|/README
+1260582201|Andrew Caudwell|M|/data/gource.1|00EEEE
+1260582201|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1260582201|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1260582201|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1260582201|Andrew Caudwell|M|/src/main.cpp|0066FF
+1260583048|Andrew Caudwell|M|/src/custom.cpp|0066FF
+1260587168|Andrew Caudwell|M|/ChangeLog
+1260587168|Andrew Caudwell|M|/README
+1260587168|Andrew Caudwell|M|/configure
+1260587168|Andrew Caudwell|M|/configure.ac|AA77FF
+1260587168|Andrew Caudwell|M|/data/gource.1|00EEEE
+1260587168|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1260587168|Andrew Caudwell|M|/src/gource.h|00AAFF
+1260587282|Andrew Caudwell|M|/debian/changelog
+1260592509|Andrew Caudwell|M|/ChangeLog
+1260592509|Andrew Caudwell|M|/src/core/sdlapp.cpp|0066FF
+1260592509|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1260592509|Andrew Caudwell|M|/src/gource.h|00AAFF
+1260592546|Andrew Caudwell|M|/contrib/svn-gource.py|FFFF00
+1260593013|Andrew Caudwell|M|/ChangeLog
+1260593013|Andrew Caudwell|M|/gource.win32.cbp
+1260593013|Andrew Caudwell|M|/src/gource.h|00AAFF
+1260631135|Justin Love|M|/src/hg.cpp|0066FF
+1260645684|Andrew Caudwell|M|/ChangeLog
+1260645684|Andrew Caudwell|M|/configure.ac|AA77FF
+1260645684|Andrew Caudwell|M|/debian/changelog
+1260645684|Andrew Caudwell|M|/src/gource.h|00AAFF
+1260645895|Andrew Caudwell|M|/configure
+1261007486|Andrew Caudwell|M|/contrib/svn-gource.py|FFFF00
+1261087002|Andrew Caudwell|M|/contrib/svn-gource.py|FFFF00
+1261370380|Andrew Caudwell|M|/ChangeLog
+1261370380|Andrew Caudwell|M|/configure
+1261370380|Andrew Caudwell|M|/configure.ac|AA77FF
+1261370380|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1261370380|Andrew Caudwell|M|/src/file.cpp|0066FF
+1261370380|Andrew Caudwell|M|/src/file.h|00AAFF
+1261370380|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1261370380|Andrew Caudwell|M|/src/gource.h|00AAFF
+1261430123|Andrew Caudwell|M|/ChangeLog
+1261430123|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1261433612|Andrew Caudwell|M|/README
+1261433612|Andrew Caudwell|M|/data/gource.1|00EEEE
+1261437355|Andrew Caudwell|M|/ChangeLog
+1261437355|Andrew Caudwell|M|/README
+1261437355|Andrew Caudwell|M|/data/gource.1|00EEEE
+1261437355|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1261437355|Andrew Caudwell|M|/src/gource.h|00AAFF
+1261437355|Andrew Caudwell|M|/src/main.cpp|0066FF
+1261437570|Andrew Caudwell|M|/debian/changelog
+1262157500|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1262157500|Andrew Caudwell|M|/gource.win32.cbp
+1262937527|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1262937527|Andrew Caudwell|M|/src/gource.h|00AAFF
+1263001990|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1263005759|Andrew Caudwell|M|/src/main.cpp|0066FF
+1263005759|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1263005759|Andrew Caudwell|M|/src/ppm.h|00AAFF
+1263446361|Andrew Caudwell|M|/ChangeLog
+1263446361|Andrew Caudwell|M|/src/core/resource.h|00AAFF
+1263446361|Andrew Caudwell|M|/src/core/texture.cpp|0066FF
+1263446361|Andrew Caudwell|M|/src/core/texture.h|00AAFF
+1263446361|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1263446361|Andrew Caudwell|M|/src/gource.h|00AAFF
+1263446361|Andrew Caudwell|M|/src/main.cpp|0066FF
+1263504338|Andrew Caudwell|M|/src/core/sdlapp.h|00AAFF
+1263504338|Andrew Caudwell|M|/src/core/seeklog.cpp|0066FF
+1263504338|Andrew Caudwell|M|/src/core/seeklog.h|00AAFF
+1263785083|Diego Elio 'Flameeyes' Pettenò|M|/.gitignore|888888
+1263785083|Diego Elio 'Flameeyes' Pettenò|A|/Makefile.am|9966FF
+1263785083|Diego Elio 'Flameeyes' Pettenò|D|/Makefile.in|7744DD
+1263785083|Diego Elio 'Flameeyes' Pettenò|D|/aclocal.m4|8855EE
+1263785083|Diego Elio 'Flameeyes' Pettenò|D|/config.guess
+1263785083|Diego Elio 'Flameeyes' Pettenò|D|/config.sub
+1263785083|Diego Elio 'Flameeyes' Pettenò|D|/configure
+1263785083|Diego Elio 'Flameeyes' Pettenò|M|/configure.ac|AA77FF
+1263785083|Diego Elio 'Flameeyes' Pettenò|D|/install-sh
+1263785083|Diego Elio 'Flameeyes' Pettenò|D|/src/Makefile.in|7744DD
+1263785083|Diego Elio 'Flameeyes' Pettenò|D|/src/core/Makefile.in|7744DD
+1263785357|Diego Elio 'Flameeyes' Pettenò|M|/Makefile.am|9966FF
+1263785464|Diego Elio 'Flameeyes' Pettenò|M|/Makefile.am|9966FF
+1264281623|Howard Chu|M|/src/ppm.cpp|0066FF
+1264281623|Howard Chu|M|/src/ppm.h|00AAFF
+1264285603|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1264285603|Andrew Caudwell|M|/src/ppm.h|00AAFF
+1264469810|Andrew Caudwell|D|/contrib/mercurial-gource.py|FFFF00
+1264470608|Andrew Caudwell|M|/ChangeLog
+1264470608|Andrew Caudwell|M|/Makefile.am|9966FF
+1264470608|Andrew Caudwell|M|/configure.ac|AA77FF
+1264470608|Andrew Caudwell|M|/debian/changelog
+1264470608|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1264470608|Andrew Caudwell|M|/src/gource.h|00AAFF
+1264471954|Andrew Caudwell|M|/Makefile.am|9966FF
+1264471954|Andrew Caudwell|M|/src/core/sdlapp.cpp|0066FF
+1264471954|Andrew Caudwell|M|/src/core/sdlapp.h|00AAFF
+1264575861|Andrew Caudwell|M|/ChangeLog
+1264575861|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1264575861|Andrew Caudwell|M|/src/gource.h|00AAFF
+1264575861|Andrew Caudwell|M|/src/main.cpp|0066FF
+1264629744|Howard Chu|M|/src/ppm.cpp|0066FF
+1264629744|Howard Chu|M|/src/ppm.h|00AAFF
+1264629744|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1264629744|Andrew Caudwell|M|/src/ppm.h|00AAFF
+1264632025|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1264632025|Andrew Caudwell|M|/src/ppm.h|00AAFF
+1264646094|Andrew Caudwell|M|/src/core/display.cpp|0066FF
+1264646094|Andrew Caudwell|M|/src/core/display.h|00AAFF
+1264646403|Andrew Caudwell|M|/ChangeLog
+1264646403|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1264646403|Andrew Caudwell|M|/src/ppm.h|00AAFF
+1264646803|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1264652647|Andrew Caudwell|M|/ChangeLog
+1264652647|Andrew Caudwell|M|/src/main.cpp|0066FF
+1264654845|Andrew Caudwell|M|/src/core/display.cpp|0066FF
+1264654845|Andrew Caudwell|M|/src/core/display.h|00AAFF
+1264654845|Andrew Caudwell|M|/src/core/fxfont.cpp|0066FF
+1264654845|Andrew Caudwell|M|/src/core/fxfont.h|00AAFF
+1264654845|Andrew Caudwell|M|/src/core/logger.cpp|0066FF
+1264654845|Andrew Caudwell|M|/src/core/regex.cpp|0066FF
+1264654845|Andrew Caudwell|M|/src/core/regex.h|00AAFF
+1264654845|Andrew Caudwell|M|/src/main.cpp|0066FF
+1264654845|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1264654845|Andrew Caudwell|M|/src/ppm.h|00AAFF
+1264719594|Andrew Caudwell|M|/src/core/regex.cpp|0066FF
+1264719622|Andrew Caudwell|M|/src/core/seeklog.cpp|0066FF
+1264719622|Andrew Caudwell|M|/src/core/seeklog.h|00AAFF
+1264719651|Andrew Caudwell|M|/src/core/sdlapp.cpp|0066FF
+1264719651|Andrew Caudwell|M|/src/core/sdlapp.h|00AAFF
+1264719651|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1264719651|Andrew Caudwell|M|/src/gource.h|00AAFF
+1264719651|Andrew Caudwell|M|/src/main.cpp|0066FF
+1264727667|Andrew Caudwell|M|/Makefile.am|9966FF
+1264734381|Andrew Caudwell|M|/Makefile.am|9966FF
+1264818334|Andrew Caudwell|M|/src/core/sdlapp.cpp|0066FF
+1264818334|Andrew Caudwell|M|/src/main.cpp|0066FF
+1264886695|Andrew Caudwell|M|/src/core/seeklog.cpp|0066FF
+1264886695|Andrew Caudwell|M|/src/core/seeklog.h|00AAFF
+1264887317|Andrew Caudwell|M|/src/core/seeklog.cpp|0066FF
+1264887317|Andrew Caudwell|M|/src/core/seeklog.h|00AAFF
+1264887317|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1264892185|Andrew Caudwell|M|/ChangeLog
+1264892185|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1264892185|Andrew Caudwell|M|/src/commitlog.h|00AAFF
+1264892185|Andrew Caudwell|M|/src/custom.cpp|0066FF
+1264892185|Andrew Caudwell|M|/src/custom.h|00AAFF
+1264894382|Andrew Caudwell|M|/Makefile.am|9966FF
+1264894382|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1264894465|Andrew Caudwell|M|/Makefile.am|9966FF
+1264894701|Andrew Caudwell|M|/Makefile.am|9966FF
+1264894999|Andrew Caudwell|M|/Makefile.am|9966FF
+1264975528|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1264975573|Andrew Caudwell|M|/ChangeLog
+1264975573|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1264975573|Andrew Caudwell|M|/src/core/seeklog.cpp|0066FF
+1264976643|Andrew Caudwell|M|/configure.ac|AA77FF
+1265058063|Andrew Caudwell|M|/README
+1265058063|Andrew Caudwell|M|/data/gource.1|00EEEE
+1265060327|Andrew Caudwell|M|/debian/control
+1265157482|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1265167862|Andrew Caudwell|M|/src/core/seeklog.cpp|0066FF
+1265167916|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1265237518|Andrew Caudwell|M|/src/core/seeklog.cpp|0066FF
+1265237518|Andrew Caudwell|M|/src/core/seeklog.h|00AAFF
+1265237716|Andrew Caudwell|M|/ChangeLog
+1265237716|Andrew Caudwell|M|/configure.ac|AA77FF
+1265237716|Andrew Caudwell|M|/src/gource.h|00AAFF
+1265763861|Andrew Caudwell|M|/ChangeLog
+1265763861|Andrew Caudwell|M|/src/core/seeklog.cpp|0066FF
+1265933746|Andrew Caudwell|M|/INSTALL
+1265933746|Andrew Caudwell|M|/README
+1266015256|John Arbash Meinel|M|/Makefile.am|9966FF
+1266015256|John Arbash Meinel|M|/src/core/logger.cpp|0066FF
+1266015256|John Arbash Meinel|M|/src/gource.cpp|0066FF
+1266015256|John Arbash Meinel|M|/src/gource.h|00AAFF
+1266015256|John Arbash Meinel|M|/src/main.cpp|0066FF
+1266016372|John Arbash Meinel|A|/src/bzr.cpp|0066FF
+1266016372|John Arbash Meinel|A|/src/bzr.h|00AAFF
+1266038629|John Arbash Meinel|M|/src/bzr.cpp|0066FF
+1266052820|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1266052867|Andrew Caudwell|M|/src/core/logger.cpp|0066FF
+1266052883|Andrew Caudwell|M|/src/commitlog.h|00AAFF
+1266053714|Andrew Caudwell|M|/src/bzr.cpp|0066FF
+1266053985|Andrew Caudwell|M|/ChangeLog
+1266053985|Andrew Caudwell|M|/README
+1266053985|Andrew Caudwell|M|/data/gource.1|00EEEE
+1266053985|Andrew Caudwell|M|/gource.win32.cbp
+1266053985|Andrew Caudwell|M|/src/main.cpp|0066FF
+1266375616|Andrew Caudwell|M|/ChangeLog
+1266375616|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1266375616|Andrew Caudwell|M|/src/gource.h|00AAFF
+1266375616|Andrew Caudwell|M|/src/main.cpp|0066FF
+1266378959|Andrew Caudwell|M|/README
+1266378959|Andrew Caudwell|M|/data/gource.1|00EEEE
+1266380159|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1266440481|Andrew Caudwell|M|/ChangeLog
+1266440481|Andrew Caudwell|M|/src/cvs-exp.cpp|0066FF
+1266523206|Brendan Cully|M|/src/main.cpp|0066FF
+1266524161|Brendan Cully|M|/src/hg.cpp|0066FF
+1266872062|Andrew Caudwell|M|/ChangeLog
+1266872062|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1266981821|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1266981821|Andrew Caudwell|M|/src/ppm.h|00AAFF
+1266999563|Andrew Caudwell|M|/ChangeLog
+1266999563|Andrew Caudwell|M|/README
+1266999563|Andrew Caudwell|M|/data/gource.1|00EEEE
+1266999563|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1266999563|Andrew Caudwell|M|/src/gource.h|00AAFF
+1267332336|Andrew Caudwell|M|/ChangeLog
+1267332336|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1267332336|Andrew Caudwell|M|/src/gource.h|00AAFF
+1267397830|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1267398098|Andrew Caudwell|M|/src/core/sdlapp.cpp|0066FF
+1267402731|Andrew Caudwell|M|/src/apache.cpp|0066FF
+1267483714|Andrew Caudwell|M|/ChangeLog
+1267483714|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1267487285|Andrew Caudwell|M|/ChangeLog
+1267487285|Andrew Caudwell|M|/README
+1267487285|Andrew Caudwell|M|/configure.ac|AA77FF
+1267487285|Andrew Caudwell|M|/data/gource.1|00EEEE
+1267487285|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1267487285|Andrew Caudwell|M|/src/gource.h|00AAFF
+1267500920|Andrew Caudwell|M|/ChangeLog
+1267500920|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1267500920|Andrew Caudwell|M|/src/user.cpp|0066FF
+1267575947|Andrew Caudwell|M|/ChangeLog
+1267575947|Andrew Caudwell|M|/README
+1267575947|Andrew Caudwell|M|/data/gource.1|00EEEE
+1267575947|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1267575947|Andrew Caudwell|M|/src/main.cpp|0066FF
+1268027102|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1268027102|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1268027102|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1268027102|Andrew Caudwell|M|/src/gource.h|00AAFF
+1268044202|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1268173388|Andrew Caudwell|M|/src/core/vectors.h|00AAFF
+1268173388|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1268173388|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1268173388|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1268173388|Andrew Caudwell|M|/src/gource.h|00AAFF
+1268181319|Andrew Caudwell|M|/ChangeLog
+1268181319|Andrew Caudwell|M|/README
+1268181319|Andrew Caudwell|M|/data/gource.1|00EEEE
+1268181319|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1268183542|Andrew Caudwell|M|/data/gource.1|00EEEE
+1268355947|Andrew Caudwell|M|/ChangeLog
+1268355947|Andrew Caudwell|M|/configure.ac|AA77FF
+1268355947|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1268355947|Andrew Caudwell|M|/src/gource.h|00AAFF
+1268355947|Andrew Caudwell|M|/src/main.cpp|0066FF
+1268358819|Andrew Caudwell|M|/ChangeLog
+1268358819|Andrew Caudwell|M|/src/file.cpp|0066FF
+1268358819|Andrew Caudwell|M|/src/main.cpp|0066FF
+1268359135|Andrew Caudwell|M|/ChangeLog
+1268359135|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1268359135|Andrew Caudwell|M|/src/gource.h|00AAFF
+1268359135|Andrew Caudwell|M|/src/main.cpp|0066FF
+1268535759|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1268974349|Andrew Caudwell|M|/Makefile.am|9966FF
+1268974349|Andrew Caudwell|A|/src/core/conffile.cpp|0066FF
+1268974349|Andrew Caudwell|A|/src/core/conffile.h|00AAFF
+1268974349|Andrew Caudwell|A|/src/core/settings.cpp|0066FF
+1268974349|Andrew Caudwell|A|/src/core/settings.h|00AAFF
+1268974349|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1268974349|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1268974349|Andrew Caudwell|M|/src/file.cpp|0066FF
+1268974349|Andrew Caudwell|M|/src/file.h|00AAFF
+1268974349|Andrew Caudwell|M|/src/git.cpp|0066FF
+1268974349|Andrew Caudwell|M|/src/git.h|00AAFF
+1268974349|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1268974349|Andrew Caudwell|M|/src/gource.h|00AAFF
+1268974349|Andrew Caudwell|A|/src/gource_settings.cpp|0066FF
+1268974349|Andrew Caudwell|A|/src/gource_settings.h|00AAFF
+1268974349|Andrew Caudwell|M|/src/main.cpp|0066FF
+1268974349|Andrew Caudwell|M|/src/user.cpp|0066FF
+1268974349|Andrew Caudwell|M|/src/user.h|00AAFF
+1268974349|Andrew Caudwell|M|/src/zoomcamera.cpp|0066FF
+1268974349|Andrew Caudwell|M|/src/zoomcamera.h|00AAFF
+1269160194|Andrew Caudwell|M|/src/ppm.cpp|0066FF
+1269160194|Andrew Caudwell|M|/src/ppm.h|00AAFF
+1269160300|Andrew Caudwell|M|/src/core/settings.cpp|0066FF
+1269160534|Andrew Caudwell|M|/src/core/conffile.cpp|0066FF
+1269160534|Andrew Caudwell|M|/src/core/conffile.h|00AAFF
+1269160665|Andrew Caudwell|M|/gource.win32.cbp
+1269219589|Andrew Caudwell|M|/ChangeLog
+1269219589|Andrew Caudwell|M|/README
+1269219589|Andrew Caudwell|M|/data/gource.1|00EEEE
+1269219589|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1269219589|Andrew Caudwell|M|/src/core/conffile.cpp|0066FF
+1269219589|Andrew Caudwell|M|/src/core/conffile.h|00AAFF
+1269219589|Andrew Caudwell|M|/src/core/settings.cpp|0066FF
+1269219589|Andrew Caudwell|M|/src/core/settings.h|00AAFF
+1269219589|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269219589|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1269219589|Andrew Caudwell|M|/src/main.cpp|0066FF
+1269292794|Andrew Caudwell|M|/src/core/regex.cpp|0066FF
+1269292794|Andrew Caudwell|M|/src/core/regex.h|00AAFF
+1269293941|Andrew Caudwell|M|/README
+1269293941|Andrew Caudwell|M|/data/gource.1|00EEEE
+1269293941|Andrew Caudwell|M|/src/core/settings.cpp|0066FF
+1269293941|Andrew Caudwell|M|/src/core/settings.h|00AAFF
+1269293941|Andrew Caudwell|M|/src/core/texture.cpp|0066FF
+1269293941|Andrew Caudwell|M|/src/core/texture.h|00AAFF
+1269293941|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1269293941|Andrew Caudwell|M|/src/gource.h|00AAFF
+1269293941|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269293941|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1269293941|Andrew Caudwell|M|/src/main.cpp|0066FF
+1269293941|Andrew Caudwell|M|/src/user.cpp|0066FF
+1269294233|Andrew Caudwell|M|/ChangeLog
+1269326422|Andrew Caudwell|M|/src/core/settings.cpp|0066FF
+1269328219|Andrew Caudwell|M|/README
+1269328219|Andrew Caudwell|M|/data/gource.1|00EEEE
+1269328219|Andrew Caudwell|M|/src/core/settings.cpp|0066FF
+1269328219|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269475733|Andrew Caudwell|M|/src/core/conffile.cpp|0066FF
+1269475733|Andrew Caudwell|M|/src/core/conffile.h|00AAFF
+1269476808|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269476808|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1269476808|Andrew Caudwell|M|/src/main.cpp|0066FF
+1269478982|Andrew Caudwell|M|/src/core/conffile.cpp|0066FF
+1269478982|Andrew Caudwell|M|/src/core/conffile.h|00AAFF
+1269494383|Andrew Caudwell|M|/src/core/settings.cpp|0066FF
+1269494383|Andrew Caudwell|M|/src/core/settings.h|00AAFF
+1269494383|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269494383|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1269494383|Andrew Caudwell|M|/src/main.cpp|0066FF
+1269574083|Andrew Caudwell|M|/Makefile.am|9966FF
+1269574083|Andrew Caudwell|M|/src/core/conffile.cpp|0066FF
+1269574083|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1269574083|Andrew Caudwell|M|/src/gource.h|00AAFF
+1269574083|Andrew Caudwell|A|/src/gource_demo.cpp|0066FF
+1269574083|Andrew Caudwell|A|/src/gource_demo.h|00AAFF
+1269574083|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269574083|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1269574083|Andrew Caudwell|M|/src/main.cpp|0066FF
+1269574083|Andrew Caudwell|M|/src/main.h|00AAFF
+1269822499|Andrew Caudwell|M|/ChangeLog
+1269822499|Andrew Caudwell|M|/README
+1269822499|Andrew Caudwell|M|/data/gource.1|00EEEE
+1269822499|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1269822499|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269822499|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1269825747|Andrew Caudwell|M|/ChangeLog
+1269825747|Andrew Caudwell|M|/README
+1269825747|Andrew Caudwell|M|/data/gource.1|00EEEE
+1269825747|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269825747|Andrew Caudwell|M|/src/main.cpp|0066FF
+1269853300|Andrew Caudwell|M|/gource.win32.cbp
+1269853313|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269855061|Andrew Caudwell|M|/ChangeLog
+1269855061|Andrew Caudwell|M|/README
+1269855061|Andrew Caudwell|M|/data/bloom.tga
+1269855061|Andrew Caudwell|M|/data/gource.1|00EEEE
+1269855061|Andrew Caudwell|M|/src/core/display.cpp|0066FF
+1269855061|Andrew Caudwell|M|/src/core/display.h|00AAFF
+1269855061|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1269855061|Andrew Caudwell|M|/src/gource.h|00AAFF
+1269855061|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269855061|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1269855061|Andrew Caudwell|M|/src/main.cpp|0066FF
+1269911822|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1269911822|Andrew Caudwell|M|/src/gource.h|00AAFF
+1269919416|Andrew Caudwell|M|/ChangeLog
+1269919416|Andrew Caudwell|M|/README
+1269919416|Andrew Caudwell|M|/data/gource.1|00EEEE
+1269919416|Andrew Caudwell|M|/src/core/display.cpp|0066FF
+1269919416|Andrew Caudwell|M|/src/core/settings.cpp|0066FF
+1269919416|Andrew Caudwell|M|/src/core/settings.h|00AAFF
+1269919416|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1269919416|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1269919416|Andrew Caudwell|M|/src/main.cpp|0066FF
+1269925153|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1269925153|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1269925153|Andrew Caudwell|M|/src/spline.cpp|0066FF
+1269925153|Andrew Caudwell|M|/src/spline.h|00AAFF
+1270074975|Andrew Caudwell|M|/ChangeLog
+1270074975|Andrew Caudwell|M|/src/core/display.cpp|0066FF
+1270074975|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1270074975|Andrew Caudwell|M|/src/gource_demo.cpp|0066FF
+1270074975|Andrew Caudwell|M|/src/gource_demo.h|00AAFF
+1270074975|Andrew Caudwell|M|/src/slider.cpp|0066FF
+1270074975|Andrew Caudwell|M|/src/slider.h|00AAFF
+1270504252|Andrew Caudwell|D|/m4/acx_pthread.m4|8855EE
+1270504252|Andrew Caudwell|M|/m4/ax_check_gl.m4|8855EE
+1270504252|Andrew Caudwell|M|/m4/ax_check_glu.m4|8855EE
+1270504252|Andrew Caudwell|M|/m4/ax_check_glut.m4|8855EE
+1270504252|Andrew Caudwell|A|/m4/ax_pthread.m4|8855EE
+1270526524|Andrew Caudwell|M|/ChangeLog
+1270681312|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1270681312|Andrew Caudwell|M|/src/gource.h|00AAFF
+1270681312|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1270681312|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1270681312|Andrew Caudwell|M|/src/user.cpp|0066FF
+1270681312|Andrew Caudwell|M|/src/user.h|00AAFF
+1270718076|Peter Kjellerstedt|M|/src/core/display.cpp|0066FF
+1270718076|Peter Kjellerstedt|M|/src/gource.cpp|0066FF
+1270718076|Peter Kjellerstedt|M|/src/gource.cpp|0066FF
+1270771286|Andrew Caudwell|M|/ChangeLog
+1271044907|Andrew Caudwell|M|/src/core/conffile.cpp|0066FF
+1271044907|Andrew Caudwell|M|/src/core/conffile.h|00AAFF
+1271044907|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1271128070|Andrew Caudwell|M|/src/gource.h|00AAFF
+1271128104|Andrew Caudwell|M|/src/core/vectors.h|00AAFF
+1271128118|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1271130865|Andrew Caudwell|M|/src/gource_demo.cpp|0066FF
+1271130865|Andrew Caudwell|M|/src/gource_demo.h|00AAFF
+1271130865|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1271130865|Andrew Caudwell|M|/src/main.cpp|0066FF
+1271372887|Andrew Caudwell|M|/src/bzr.cpp|0066FF
+1271372887|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1271372887|Andrew Caudwell|M|/src/commitlog.h|00AAFF
+1271372887|Andrew Caudwell|M|/src/git.cpp|0066FF
+1271372887|Andrew Caudwell|M|/src/hg.cpp|0066FF
+1271384392|Andrew Caudwell|M|/README
+1271384392|Andrew Caudwell|M|/data/gource.1|00EEEE
+1271384392|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1271384392|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1271384392|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1271400735|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/.gitignore|888888
+1271645171|Andrew Caudwell|D|/src/core/bounds.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/camera.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/camera.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/conffile.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/conffile.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/display.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/display.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/extensions.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/extensions.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/frustum.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/frustum.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/fxfont.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/fxfont.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/logger.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/logger.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/pi.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/plane.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/plane.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/quadtree.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/quadtree.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/regex.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/regex.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/resource.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/resource.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/sdlapp.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/sdlapp.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/seeklog.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/seeklog.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/settings.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/settings.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/stringhash.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/stringhash.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/texture.cpp|0066FF
+1271645171|Andrew Caudwell|D|/src/core/texture.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/utf8/checked.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/utf8/core.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/utf8/unchecked.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/utf8/utf8.h|00AAFF
+1271645171|Andrew Caudwell|D|/src/core/vectors.h|00AAFF
+1271645277|Andrew Caudwell|A|/.gitmodules
+1271645277|Andrew Caudwell|A|/src/core
+1271645859|Andrew Caudwell|M|/Makefile.am|9966FF
+1271645859|Andrew Caudwell|M|/src/core
+1271645859|Andrew Caudwell|M|/src/gource.h|00AAFF
+1271645859|Andrew Caudwell|D|/src/ppm.cpp|0066FF
+1271645859|Andrew Caudwell|D|/src/ppm.h|00AAFF
+1271647143|Andrew Caudwell|M|/src/core
+1271647501|Andrew Caudwell|M|/INSTALL
+1271706508|Peter Kjellerstedt|M|/.gitmodules
+1271824806|Andrew Caudwell|M|/README
+1271824806|Andrew Caudwell|M|/data/gource.1|00EEEE
+1271824806|Andrew Caudwell|M|/src/core
+1271824806|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1271824806|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1271841367|Andrew Caudwell|M|/gource.win32.cbp
+1271841400|Andrew Caudwell|M|/src/apache.cpp|0066FF
+1271841400|Andrew Caudwell|M|/src/cvs-exp.cpp|0066FF
+1271841400|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1271841400|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1271841400|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1271924649|Andrew Caudwell|M|/README
+1271924649|Andrew Caudwell|M|/data/gource.1|00EEEE
+1271924649|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1271924649|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1271924649|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1271925098|Andrew Caudwell|M|/ChangeLog
+1272495571|Alejandro Martinez Ruiz|M|/src/gource_settings.cpp|0066FF
+1273009785|Siddhesh Poyarekar|M|/configure.ac|AA77FF
+1273280252|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1273280252|Andrew Caudwell|M|/src/gource.h|00AAFF
+1273280463|Andrew Caudwell|M|/Makefile.am|9966FF
+1273280463|Andrew Caudwell|D|/src/gource_demo.cpp|0066FF
+1273280463|Andrew Caudwell|D|/src/gource_demo.h|00AAFF
+1273280463|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1273280463|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1273280463|Andrew Caudwell|A|/src/gource_shell.cpp|0066FF
+1273280463|Andrew Caudwell|A|/src/gource_shell.h|00AAFF
+1273280463|Andrew Caudwell|M|/src/main.cpp|0066FF
+1273280463|Andrew Caudwell|M|/src/main.h|00AAFF
+1273285860|Andrew Caudwell|M|/ChangeLog
+1273285860|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1273285860|Andrew Caudwell|M|/src/gource.h|00AAFF
+1273304585|Andrew Caudwell|M|/ChangeLog
+1273304706|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1273304706|Andrew Caudwell|M|/src/gource_shell.h|00AAFF
+1273570255|Andrew Caudwell|M|/src/git.cpp|0066FF
+1273570255|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1273570255|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1273570618|Andrew Caudwell|M|/gource.win32.cbp
+1273578446|Andrew Caudwell|M|/src/git.cpp|0066FF
+1273578446|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1273578446|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1273611551|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1273805564|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1273807107|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1273807107|Andrew Caudwell|M|/src/gource.h|00AAFF
+1274161522|Andrew Caudwell|M|/Makefile.am|9966FF
+1274161522|Andrew Caudwell|M|/data/bloom.tga
+1274161522|Andrew Caudwell|A|/data/bloom_alpha.tga
+1274161522|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1274161522|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1274161522|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1274669657|Andrew Caudwell|M|/src/core
+1274669657|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1275624403|Jacob|M|/ChangeLog
+1275624403|Jacob|M|/src/action.cpp|0066FF
+1275624403|Jacob|M|/src/action.h|00AAFF
+1275624403|Jacob|M|/src/core
+1275624403|Jacob|M|/src/dirnode.cpp|0066FF
+1275624403|Jacob|M|/src/dirnode.h|00AAFF
+1275624403|Jacob|M|/src/file.cpp|0066FF
+1275624403|Jacob|M|/src/file.h|00AAFF
+1275624403|Jacob|M|/src/main.cpp|0066FF
+1275624403|Jacob|M|/src/pawn.h|00AAFF
+1275624403|Jacob|M|/src/spline.cpp|0066FF
+1275624403|Jacob|M|/src/spline.h|00AAFF
+1275624403|Jacob|M|/src/user.cpp|0066FF
+1275624403|Jacob|M|/src/user.h|00AAFF
+1275627288|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1275628230|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1275628230|Andrew Caudwell|M|/src/gource.h|00AAFF
+1275631100|Andrew Caudwell|M|/Makefile.am|9966FF
+1275631100|Andrew Caudwell|M|/src/core
+1275631100|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1275631236|Andrew Caudwell|A|/data/cursor.png
+1275806932|Andrew Caudwell|M|/gource.win32.cbp
+1275812501|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1275812501|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1275815307|Andrew Caudwell|M|/src/core
+1275815307|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1275815307|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1275904783|Jacob Metcalfe|M|/src/core
+1275904783|Jacob Metcalfe|M|/src/dirnode.cpp|0066FF
+1275904783|Jacob Metcalfe|M|/src/dirnode.h|00AAFF
+1275904783|Jacob Metcalfe|M|/src/gource.cpp|0066FF
+1275904783|Jacob Metcalfe|M|/src/user.cpp|0066FF
+1275904783|Jacob Metcalfe|M|/src/user.h|00AAFF
+1275905802|Jacob Metcalfe|M|/src/file.cpp|0066FF
+1275905802|Jacob Metcalfe|M|/src/file.h|00AAFF
+1275905802|Jacob Metcalfe|M|/src/pawn.cpp|0066FF
+1275905802|Jacob Metcalfe|M|/src/pawn.h|00AAFF
+1275906115|Andrew Caudwell|M|/src/user.cpp|0066FF
+1275906115|Andrew Caudwell|M|/src/user.h|00AAFF
+1275906143|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1275972364|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1275972364|Andrew Caudwell|M|/src/gource.h|00AAFF
+1275972543|Andrew Caudwell|M|/Makefile.am|9966FF
+1275972543|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1275972543|Andrew Caudwell|A|/data/cursor.png
+1275973157|Andrew Caudwell|M|/src/core
+1275974662|Andrew Caudwell|M|/data/cursor.png
+1276044836|Andrew Caudwell|M|/src/core
+1276044836|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1276059603|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1276059603|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1276145677|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1276145748|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1276145748|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1276599187|Andrew Caudwell|M|/INSTALL
+1276599187|Andrew Caudwell|M|/Makefile.am|9966FF
+1276599187|Andrew Caudwell|M|/configure.ac|AA77FF
+1276599187|Andrew Caudwell|M|/src/core
+1276646340|Andrew Caudwell|M|/src/core
+1276679412|Andrew Caudwell|M|/Makefile.am|9966FF
+1276841307|Andrew Caudwell|M|/src/core
+1276841307|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1276841307|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1276841307|Andrew Caudwell|M|/src/file.cpp|0066FF
+1276841307|Andrew Caudwell|M|/src/file.h|00AAFF
+1276841307|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1276841307|Andrew Caudwell|M|/src/gource.h|00AAFF
+1276841307|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1276841307|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1276841307|Andrew Caudwell|M|/src/user.cpp|0066FF
+1276841307|Andrew Caudwell|M|/src/user.h|00AAFF
+1277471506|Andrew Caudwell|M|/src/core
+1278045254|Andrew Caudwell|M|/README
+1278045254|Andrew Caudwell|M|/data/gource.1|00EEEE
+1278045254|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1278045254|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1278045254|Andrew Caudwell|M|/src/file.cpp|0066FF
+1278045254|Andrew Caudwell|M|/src/file.h|00AAFF
+1278045254|Andrew Caudwell|M|/ChangeLog
+1278045254|Andrew Caudwell|M|/README
+1278045254|Andrew Caudwell|M|/data/gource.1|00EEEE
+1278045254|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1278045254|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1278045254|Andrew Caudwell|M|/ChangeLog
+1278045254|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1278045254|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1278045254|Andrew Caudwell|M|/src/file.cpp|0066FF
+1278045254|Andrew Caudwell|M|/src/file.h|00AAFF
+1278392549|Andrew Caudwell|M|/src/core
+1278392585|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1278392585|Andrew Caudwell|M|/src/main.cpp|0066FF
+1278392946|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1278393641|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1278394008|Andrew Caudwell|M|/ChangeLog
+1278394008|Andrew Caudwell|M|/README
+1278394008|Andrew Caudwell|M|/data/gource.1|00EEEE
+1278394008|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1278405052|Andrew Caudwell|M|/gource.win32.cbp
+1278553379|Andrew Caudwell|M|/ChangeLog
+1278553379|Andrew Caudwell|M|/README
+1278553379|Andrew Caudwell|M|/data/gource.1|00EEEE
+1278553379|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1278553379|Andrew Caudwell|M|/src/file.cpp|0066FF
+1278553379|Andrew Caudwell|M|/src/file.h|00AAFF
+1278553379|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1278553379|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1278553379|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1278553379|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1278553379|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1278557028|Andrew Caudwell|M|/src/main.cpp|0066FF
+1278640681|Andrew Caudwell|M|/ChangeLog
+1278640681|Andrew Caudwell|M|/README
+1278640681|Andrew Caudwell|M|/data/gource.1|00EEEE
+1278640681|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1278640681|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1278640681|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1278654371|Andrew Caudwell|M|/ChangeLog
+1278654371|Andrew Caudwell|M|/configure.ac|AA77FF
+1278654371|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1278654371|Andrew Caudwell|M|/gource.win32.cbp
+1278654371|Andrew Caudwell|M|/src/core
+1278654371|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1278664411|Andrew Caudwell|M|/gource.win32.cbp
+1278724402|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1278727109|Andrew Caudwell|M|/ChangeLog
+1278818852|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1278818888|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1278819009|Andrew Caudwell|M|/src/core
+1278819009|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1278893593|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1278927343|Andrew Caudwell|M|/src/core
+1279250922|Andrew Caudwell|M|/src/core
+1279932034|Andrew Caudwell|M|/ChangeLog
+1279932034|Andrew Caudwell|M|/configure.ac|AA77FF
+1279932034|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1280097959|Andrew Caudwell|A|/scripts/gource-ps.pl|FFDD00
+1280166373|John Arbash Meinel|M|/src/bzr.cpp|0066FF
+1280203756|Andrew Caudwell|M|/ChangeLog
+1280203756|Andrew Caudwell|M|/configure.ac|AA77FF
+1280203756|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1280738852|Andrew Caudwell|M|/scripts/gource-ps.pl|FFDD00
+1281332218|Andrew Caudwell|M|/scripts/gource-ps.pl|FFDD00
+1281497766|Oliver Smith|M|/ChangeLog
+1281497766|Oliver Smith|M|/src/apache.cpp|0066FF
+1281497766|Oliver Smith|M|/src/apache.h|00AAFF
+1281497766|Oliver Smith|M|/src/bzr.cpp|0066FF
+1281497766|Oliver Smith|M|/src/bzr.h|00AAFF
+1281497766|Oliver Smith|M|/src/commitlog.cpp|0066FF
+1281497766|Oliver Smith|M|/src/commitlog.h|00AAFF
+1281497766|Oliver Smith|M|/src/custom.cpp|0066FF
+1281497766|Oliver Smith|M|/src/custom.h|00AAFF
+1281497766|Oliver Smith|M|/src/cvs-exp.cpp|0066FF
+1281497766|Oliver Smith|M|/src/cvs-exp.h|00AAFF
+1281497766|Oliver Smith|M|/src/git.cpp|0066FF
+1281497766|Oliver Smith|M|/src/git.h|00AAFF
+1281497766|Oliver Smith|M|/src/gitraw.cpp|0066FF
+1281497766|Oliver Smith|M|/src/gitraw.h|00AAFF
+1281497766|Oliver Smith|M|/src/gource.cpp|0066FF
+1281497766|Oliver Smith|M|/src/gource.h|00AAFF
+1281497766|Oliver Smith|M|/src/hg.cpp|0066FF
+1281497766|Oliver Smith|M|/src/hg.h|00AAFF
+1281497766|Oliver Smith|M|/src/pawn.cpp|0066FF
+1281497766|Oliver Smith|M|/src/pawn.h|00AAFF
+1281497766|Oliver Smith|M|/src/slider.cpp|0066FF
+1281497766|Oliver Smith|M|/src/slider.h|00AAFF
+1281497766|Oliver Smith|M|/src/user.cpp|0066FF
+1281497766|Oliver Smith|M|/src/user.h|00AAFF
+1281659972|Andrew Caudwell|M|/ChangeLog
+1281659972|Andrew Caudwell|M|/src/cvs-exp.cpp|0066FF
+1281670815|Andrew Caudwell|M|/ChangeLog
+1281670815|Andrew Caudwell|M|/src/user.cpp|0066FF
+1282101974|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1282102057|Andrew Caudwell|M|/src/zoomcamera.cpp|0066FF
+1282102057|Andrew Caudwell|M|/src/zoomcamera.h|00AAFF
+1282102954|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1282102954|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1282107636|Andrew Caudwell|M|/ChangeLog
+1282107636|Andrew Caudwell|M|/README
+1282107636|Andrew Caudwell|M|/data/gource.1|00EEEE
+1282107636|Andrew Caudwell|M|/src/core
+1282107636|Andrew Caudwell|M|/src/file.cpp|0066FF
+1282107636|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1282107636|Andrew Caudwell|M|/src/gource.h|00AAFF
+1282107636|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1282107636|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1282107636|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1282107636|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1282107636|Andrew Caudwell|M|/src/user.cpp|0066FF
+1282107636|Andrew Caudwell|M|/src/user.h|00AAFF
+1282109622|Andrew Caudwell|M|/src/action.cpp|0066FF
+1282172984|Andrew Caudwell|M|/ChangeLog
+1282172984|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1282172984|Andrew Caudwell|M|/src/gource.h|00AAFF
+1282172984|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1282260446|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1282263296|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1282263296|Andrew Caudwell|M|/src/gource.h|00AAFF
+1282881747|Andrew Caudwell|M|/.gitignore|888888
+1283454083|Christian Köstlin|M|/src/gource_settings.cpp|0066FF
+1283751010|Andrew Caudwell|M|/ChangeLog
+1283751010|Andrew Caudwell|M|/configure.ac|AA77FF
+1283751010|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1286497906|Andrew Caudwell|M|/ChangeLog
+1286497906|Andrew Caudwell|M|/README
+1286497906|Andrew Caudwell|M|/data/gource.1|00EEEE
+1286497906|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1286497906|Andrew Caudwell|M|/src/gource.h|00AAFF
+1286497906|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1286497906|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1287105376|Andrew Caudwell|M|/ChangeLog
+1287105376|Andrew Caudwell|M|/README
+1287105376|Andrew Caudwell|M|/data/gource.1|00EEEE
+1287105376|Andrew Caudwell|M|/src/core
+1287105376|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1287105376|Andrew Caudwell|M|/src/gource.h|00AAFF
+1287105376|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1287105376|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1287105376|Andrew Caudwell|M|/src/main.cpp|0066FF
+1287105376|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1287105376|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1288670021|Andrew Caudwell|M|/ChangeLog
+1288670021|Andrew Caudwell|M|/src/core
+1289856041|Andrew Caudwell|M|/ChangeLog
+1289856041|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1289856041|Andrew Caudwell|M|/src/git.cpp|0066FF
+1289856099|Andrew Caudwell|M|/src/file.cpp|0066FF
+1289982138|Andrew Caudwell|M|/ChangeLog
+1289982138|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1289982138|Andrew Caudwell|M|/src/gource.h|00AAFF
+1289982138|Andrew Caudwell|M|/src/zoomcamera.cpp|0066FF
+1289982138|Andrew Caudwell|M|/src/zoomcamera.h|00AAFF
+1290212331|Andrew Caudwell|M|/README
+1290212331|Andrew Caudwell|M|/data/gource.1|00EEEE
+1290212331|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1290212331|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1290745567|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1290745567|Andrew Caudwell|M|/src/gource.h|00AAFF
+1290745567|Andrew Caudwell|M|/src/zoomcamera.cpp|0066FF
+1290745567|Andrew Caudwell|M|/src/zoomcamera.h|00AAFF
+1291083184|Andrew Caudwell|M|/src/file.cpp|0066FF
+1291083184|Andrew Caudwell|M|/src/file.h|00AAFF
+1291083184|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1291264728|Andrew Caudwell|M|/.gitignore|888888
+1291264728|Andrew Caudwell|M|/Makefile.am|9966FF
+1291264728|Andrew Caudwell|M|/README
+1291264728|Andrew Caudwell|M|/data/gource.1|00EEEE
+1291264728|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1291264728|Andrew Caudwell|M|/src/gource.h|00AAFF
+1291264728|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1291264728|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1291264728|Andrew Caudwell|A|/src/svn.cpp|0066FF
+1291264728|Andrew Caudwell|A|/src/svn.h|00AAFF
+1291264728|Andrew Caudwell|A|/src/tinyxml/tinystr.cpp|0066FF
+1291264728|Andrew Caudwell|A|/src/tinyxml/tinystr.h|00AAFF
+1291264728|Andrew Caudwell|A|/src/tinyxml/tinyxml.cpp|0066FF
+1291264728|Andrew Caudwell|A|/src/tinyxml/tinyxml.h|00AAFF
+1291264728|Andrew Caudwell|A|/src/tinyxml/tinyxmlerror.cpp|0066FF
+1291264728|Andrew Caudwell|A|/src/tinyxml/tinyxmlparser.cpp|0066FF
+1291603512|Andrew Caudwell|M|/ChangeLog
+1291688218|Andrew Caudwell|M|/ChangeLog
+1291688218|Andrew Caudwell|M|/Makefile.am|9966FF
+1291688218|Andrew Caudwell|M|/README
+1291688218|Andrew Caudwell|M|/data/gource.1|00EEEE
+1291688218|Andrew Caudwell|A|/src/cvs2cl.cpp|0066FF
+1291688218|Andrew Caudwell|A|/src/cvs2cl.h|00AAFF
+1291688218|Andrew Caudwell|M|/src/file.cpp|0066FF
+1291688218|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1291688218|Andrew Caudwell|M|/src/gource.h|00AAFF
+1291688218|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1291688218|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1291688218|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1291688218|Andrew Caudwell|A|/src/textbox.cpp|0066FF
+1291688218|Andrew Caudwell|A|/src/textbox.h|00AAFF
+1291688218|Andrew Caudwell|M|/src/user.cpp|0066FF
+1291688218|Andrew Caudwell|M|/src/user.h|00AAFF
+1291688225|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1291693926|Andrew Caudwell|M|/ChangeLog
+1291693926|Andrew Caudwell|M|/README
+1291693926|Andrew Caudwell|M|/data/gource.1|00EEEE
+1291693926|Andrew Caudwell|M|/src/file.cpp|0066FF
+1291693926|Andrew Caudwell|M|/src/file.h|00AAFF
+1291693926|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1291693926|Andrew Caudwell|M|/src/gource.h|00AAFF
+1291693926|Andrew Caudwell|M|/src/user.cpp|0066FF
+1291693926|Andrew Caudwell|M|/src/user.h|00AAFF
+1291704674|Andrew Caudwell|M|/gource.win32.cbp
+1291781498|Andrew Caudwell|M|/ChangeLog
+1291781498|Andrew Caudwell|M|/src/core
+1291781498|Andrew Caudwell|M|/src/main.cpp|0066FF
+1291852559|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1291852559|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1291852559|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1291852559|Andrew Caudwell|M|/src/spline.cpp|0066FF
+1291852559|Andrew Caudwell|M|/src/spline.h|00AAFF
+1291953704|Andrew Caudwell|M|/ChangeLog
+1291953704|Andrew Caudwell|M|/Makefile.am|9966FF
+1291953704|Andrew Caudwell|M|/README
+1291953704|Andrew Caudwell|M|/data/gource.1|00EEEE
+1291953704|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1291953704|Andrew Caudwell|M|/src/gource.h|00AAFF
+1291953704|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1291953704|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1291953704|Andrew Caudwell|A|/src/key.cpp|0066FF
+1291953704|Andrew Caudwell|A|/src/key.h|00AAFF
+1291953704|Andrew Caudwell|M|/src/textbox.cpp|0066FF
+1291953704|Andrew Caudwell|M|/src/textbox.h|00AAFF
+1291972690|Andrew Caudwell|M|/gource.win32.cbp
+1291972709|Andrew Caudwell|M|/src/core
+1292294539|Andrew Caudwell|M|/src/file.cpp|0066FF
+1292294539|Andrew Caudwell|M|/src/file.h|00AAFF
+1292297574|Andrew Caudwell|M|/src/key.cpp|0066FF
+1292297817|Andrew Caudwell|M|/src/core
+1292370782|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1292370782|Andrew Caudwell|M|/src/user.cpp|0066FF
+1292373760|Andrew Caudwell|M|/src/file.cpp|0066FF
+1293166426|Andrew Caudwell|M|/ChangeLog
+1293166426|Andrew Caudwell|M|/src/core
+1293166426|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1293166426|Andrew Caudwell|M|/src/file.cpp|0066FF
+1293166426|Andrew Caudwell|M|/src/file.h|00AAFF
+1293166426|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1293166426|Andrew Caudwell|M|/src/gource.h|00AAFF
+1294712008|Andrew Caudwell|M|/ChangeLog
+1294712008|Andrew Caudwell|M|/README
+1294712008|Andrew Caudwell|M|/data/gource.1|00EEEE
+1294712008|Andrew Caudwell|M|/src/cvs2cl.cpp|0066FF
+1294712008|Andrew Caudwell|M|/src/cvs2cl.h|00AAFF
+1294805642|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1294867024|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1294899897|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1295483651|Andrew Caudwell|M|/ChangeLog
+1295483651|Andrew Caudwell|M|/configure.ac|AA77FF
+1295483651|Andrew Caudwell|M|/src/core
+1295483651|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1296182748|Andrew Caudwell|M|/ChangeLog
+1296182748|Andrew Caudwell|M|/src/svn.cpp|0066FF
+1296182762|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1297466739|Andrew Caudwell|M|/ChangeLog
+1297466739|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1297466739|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1297466739|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1297466739|Andrew Caudwell|M|/src/gource.h|00AAFF
+1297634371|Andrew Caudwell|M|/src/svn.cpp|0066FF
+1297911543|Andrew Caudwell|M|/ChangeLog
+1297911543|Andrew Caudwell|M|/INSTALL
+1297911543|Andrew Caudwell|M|/Makefile.am|9966FF
+1297911543|Andrew Caudwell|M|/configure.ac|AA77FF
+1297911543|Andrew Caudwell|M|/src/cvs2cl.h|00AAFF
+1297911543|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1297911543|Andrew Caudwell|M|/src/svn.h|00AAFF
+1297921756|Francois Marier|M|/data/gource.1|00EEEE
+1298603155|Andrew Caudwell|M|/src/core
+1299035437|Andrew Caudwell|M|/ChangeLog
+1299035437|Andrew Caudwell|M|/configure.ac|AA77FF
+1299035437|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1299035437|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1301968456|Andrew Caudwell|M|/ChangeLog
+1301968456|Andrew Caudwell|M|/src/bzr.cpp|0066FF
+1301968456|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1301968505|Andrew Caudwell|M|/ChangeLog
+1301968505|Andrew Caudwell|M|/README
+1301968505|Andrew Caudwell|M|/data/gource.1|00EEEE
+1301968505|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1301968505|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1301968505|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1301968505|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1301968606|Andrew Caudwell|M|/configure.ac|AA77FF
+1301968606|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1303022294|Andrew Caudwell|A|/data/shaders/shadow.frag
+1303022294|Andrew Caudwell|A|/data/shaders/shadow.vert
+1303022294|Andrew Caudwell|M|/gource.win32.cbp
+1303022294|Andrew Caudwell|M|/src/core
+1303022294|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1303022294|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1303022294|Andrew Caudwell|M|/src/file.h|00AAFF
+1303022294|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303022294|Andrew Caudwell|M|/src/gource.h|00AAFF
+1303022294|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1303022294|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1303022294|Andrew Caudwell|M|/src/main.cpp|0066FF
+1303022294|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1303022294|Andrew Caudwell|M|/src/user.h|00AAFF
+1303022294|Andrew Caudwell|A|/src/vbo.cpp|0066FF
+1303022294|Andrew Caudwell|A|/src/vbo.h|00AAFF
+1303022415|Andrew Caudwell|M|/gource.win32.cbp
+1303035147|Andrew Caudwell|M|/src/vbo.cpp|0066FF
+1303035162|Andrew Caudwell|M|/Makefile.am|9966FF
+1303087448|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1303087448|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1303087448|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1303087448|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1303089346|Andrew Caudwell|M|/src/vbo.cpp|0066FF
+1303089412|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303089412|Andrew Caudwell|M|/src/gource.h|00AAFF
+1303089801|Andrew Caudwell|M|/ChangeLog
+1303089801|Andrew Caudwell|M|/src/bzr.cpp|0066FF
+1303089801|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303089887|Andrew Caudwell|M|/ChangeLog
+1303089887|Andrew Caudwell|M|/README
+1303089887|Andrew Caudwell|M|/data/gource.1|00EEEE
+1303089887|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1303089887|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303089887|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1303089887|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1303089887|Andrew Caudwell|M|/configure.ac|AA77FF
+1303089887|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1303091256|Andrew Caudwell|M|/src/core
+1303091256|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1303091256|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1303091256|Andrew Caudwell|M|/src/file.cpp|0066FF
+1303091256|Andrew Caudwell|M|/src/file.h|00AAFF
+1303091256|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303091256|Andrew Caudwell|M|/src/gource.h|00AAFF
+1303091256|Andrew Caudwell|M|/src/textbox.cpp|0066FF
+1303091256|Andrew Caudwell|M|/src/user.cpp|0066FF
+1303170467|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303170467|Andrew Caudwell|M|/src/gource.h|00AAFF
+1303170522|Andrew Caudwell|M|/src/vbo.cpp|0066FF
+1303170522|Andrew Caudwell|M|/src/vbo.h|00AAFF
+1303172180|Andrew Caudwell|M|/README
+1303172180|Andrew Caudwell|M|/data/gource.1|00EEEE
+1303172180|Andrew Caudwell|M|/src/core
+1303172180|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1303172180|Andrew Caudwell|M|/src/main.cpp|0066FF
+1303172208|Andrew Caudwell|M|/ChangeLog
+1303172208|Andrew Caudwell|M|/INSTALL
+1303172208|Andrew Caudwell|M|/configure.ac|AA77FF
+1303172208|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1303172273|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1303175047|Andrew Caudwell|M|/src/vbo.cpp|0066FF
+1303175797|Andrew Caudwell|M|/Makefile.am|9966FF
+1303188585|Andrew Caudwell|M|/src/vbo.cpp|0066FF
+1303188660|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1303188660|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1303188660|Andrew Caudwell|M|/src/file.cpp|0066FF
+1303188660|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303188660|Andrew Caudwell|M|/src/gource.h|00AAFF
+1303188660|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1303203136|Andrew Caudwell|M|/src/vbo.cpp|0066FF
+1303203200|Andrew Caudwell|M|/gource.win32.cbp
+1303213369|Andrew Caudwell|M|/Makefile.am|9966FF
+1303213369|Andrew Caudwell|A|/data/shaders/bloom.frag
+1303213369|Andrew Caudwell|A|/data/shaders/bloom.vert
+1303213369|Andrew Caudwell|A|/src/bloom.cpp|0066FF
+1303213369|Andrew Caudwell|A|/src/bloom.h|00AAFF
+1303213369|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1303213369|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1303213369|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303213369|Andrew Caudwell|M|/src/gource.h|00AAFF
+1303213661|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1303213878|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303214645|Andrew Caudwell|M|/gource.win32.cbp
+1303252033|Andrew Caudwell|M|/data/shaders/bloom.frag
+1303252074|Andrew Caudwell|M|/Makefile.am|9966FF
+1303266182|Andrew Caudwell|M|/ChangeLog
+1303293119|Andrew Caudwell|M|/data/shaders/bloom.frag
+1303293214|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303645382|Andrew Caudwell|M|/data/shaders/shadow.vert
+1303645406|Andrew Caudwell|M|/data/shaders/shadow.frag
+1303645858|Andrew Caudwell|M|/src/bloom.cpp|0066FF
+1303645858|Andrew Caudwell|M|/src/bloom.h|00AAFF
+1303646114|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1303646114|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1303646114|Andrew Caudwell|M|/src/file.cpp|0066FF
+1303646114|Andrew Caudwell|M|/src/file.h|00AAFF
+1303646114|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1303646114|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1303646114|Andrew Caudwell|M|/src/user.cpp|0066FF
+1303646114|Andrew Caudwell|M|/src/user.h|00AAFF
+1303647333|Andrew Caudwell|M|/ChangeLog
+1303647333|Andrew Caudwell|M|/Makefile.am|9966FF
+1303647333|Andrew Caudwell|A|/data/shaders/text.frag
+1303647333|Andrew Caudwell|A|/data/shaders/text.vert
+1303647333|Andrew Caudwell|M|/gource.win32.cbp
+1303647333|Andrew Caudwell|M|/src/core
+1303647333|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303647333|Andrew Caudwell|M|/src/gource.h|00AAFF
+1303647333|Andrew Caudwell|D|/src/vbo.cpp|0066FF
+1303647333|Andrew Caudwell|D|/src/vbo.h|00AAFF
+1303647831|Andrew Caudwell|M|/gource.win32.cbp
+1303681251|Andrew Caudwell|M|/ChangeLog
+1303681251|Andrew Caudwell|M|/src/core
+1303682523|Andrew Caudwell|M|/src/core
+1303683194|Andrew Caudwell|M|/src/core
+1303726709|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303726709|Andrew Caudwell|M|/src/main.cpp|0066FF
+1303726776|Andrew Caudwell|M|/src/core
+1303728508|Andrew Caudwell|M|/src/core
+1303817158|Andrew Caudwell|M|/src/core
+1303861522|Andrew Caudwell|D|/debian/changelog
+1303861522|Andrew Caudwell|D|/debian/compat
+1303861522|Andrew Caudwell|D|/debian/control
+1303861522|Andrew Caudwell|D|/debian/copyright
+1303861522|Andrew Caudwell|D|/debian/dirs
+1303861522|Andrew Caudwell|D|/debian/docs
+1303861522|Andrew Caudwell|D|/debian/rules
+1303874939|Andrew Caudwell|M|/src/core
+1303875237|Andrew Caudwell|M|/src/core
+1303883363|Andrew Caudwell|M|/ChangeLog
+1303900691|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1303900691|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1303900743|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1303954431|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303954522|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1303954522|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1303954577|Andrew Caudwell|M|/ChangeLog
+1303954577|Andrew Caudwell|M|/configure.ac|AA77FF
+1303954577|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1303987207|Andrew Caudwell|M|/src/bloom.cpp|0066FF
+1303987207|Andrew Caudwell|M|/src/bloom.h|00AAFF
+1303987307|Andrew Caudwell|M|/src/action.cpp|0066FF
+1303987307|Andrew Caudwell|M|/src/action.h|00AAFF
+1303987307|Andrew Caudwell|M|/src/core
+1303987307|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1303987307|Andrew Caudwell|M|/src/gource.h|00AAFF
+1303987307|Andrew Caudwell|M|/src/user.cpp|0066FF
+1303987307|Andrew Caudwell|M|/src/user.h|00AAFF
+1304224368|Andrew Caudwell|M|/src/bloom.h|00AAFF
+1304346344|Andrew Caudwell|M|/src/core
+1304402558|Andrew Caudwell|M|/ChangeLog
+1304402558|Andrew Caudwell|M|/configure.ac|AA77FF
+1304402558|Andrew Caudwell|M|/src/core
+1304402558|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1304407473|Andrew Caudwell|M|/src/key.cpp|0066FF
+1304412909|Andrew Caudwell|M|/src/key.cpp|0066FF
+1304414469|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1304414512|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1304414526|Andrew Caudwell|M|/src/action.cpp|0066FF
+1304414526|Andrew Caudwell|M|/src/core
+1305104818|Andrew Caudwell|M|/ChangeLog
+1305104818|Andrew Caudwell|M|/configure.ac|AA77FF
+1305104818|Andrew Caudwell|M|/data/shaders/shadow.vert
+1305104818|Andrew Caudwell|M|/data/shaders/text.frag
+1305104818|Andrew Caudwell|M|/data/shaders/text.vert
+1305104818|Andrew Caudwell|M|/src/core
+1305104818|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1305104818|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1305153342|Andrew Caudwell|M|/src/core
+1305161143|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1305256021|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1305256021|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1305256021|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1305256021|Andrew Caudwell|M|/src/gource.h|00AAFF
+1305256021|Andrew Caudwell|M|/src/spline.cpp|0066FF
+1305256021|Andrew Caudwell|M|/src/spline.h|00AAFF
+1305447069|Andrew Caudwell|M|/src/core
+1305447069|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1306386664|Andrew Caudwell|M|/ChangeLog
+1306386664|Andrew Caudwell|M|/configure.ac|AA77FF
+1306386664|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1306386664|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1306576523|Andrew Caudwell|M|/src/hg.cpp|0066FF
+1306576718|Andrew Caudwell|M|/ChangeLog
+1306732972|Andrew Caudwell|M|/src/core
+1307416945|Andrew Caudwell|M|/ChangeLog
+1307416945|Andrew Caudwell|M|/src/hg.cpp|0066FF
+1307416945|Andrew Caudwell|M|/src/hg.h|00AAFF
+1307417158|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1307417158|Andrew Caudwell|M|/src/custom.cpp|0066FF
+1307417158|Andrew Caudwell|M|/src/custom.h|00AAFF
+1307419167|Andrew Caudwell|M|/ChangeLog
+1307419167|Andrew Caudwell|M|/src/key.cpp|0066FF
+1307419167|Andrew Caudwell|M|/src/key.h|00AAFF
+1315877571|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1315877571|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1315877571|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1315879894|Andrew Caudwell|M|/src/svn.cpp|0066FF
+1315883026|Andrew Caudwell|M|/ChangeLog
+1315883026|Andrew Caudwell|M|/configure.ac|AA77FF
+1315883026|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1316075048|Andrew Caudwell|M|/ChangeLog
+1316075048|Andrew Caudwell|M|/configure.ac|AA77FF
+1316075048|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1316075048|Andrew Caudwell|M|/src/svn.cpp|0066FF
+1316076046|Andrew Caudwell|M|/src/svn.cpp|0066FF
+1316133955|Andrew Caudwell|M|/configure.ac|AA77FF
+1316134013|Andrew Caudwell|M|/INSTALL
+1316135856|Andrew Caudwell|M|/configure.ac|AA77FF
+1318555234|Andrew Caudwell|M|/ChangeLog
+1318555234|Andrew Caudwell|M|/Makefile.am|9966FF
+1318555234|Andrew Caudwell|M|/configure.ac|AA77FF
+1318555234|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1320800556|Andrew Caudwell|M|/ChangeLog
+1320800556|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1320800556|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1320800556|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1320868560|Andrew Caudwell|M|/.gitignore|888888
+1320868955|Andrew Caudwell|M|/ChangeLog
+1320868955|Andrew Caudwell|M|/Makefile.am|9966FF
+1320868955|Andrew Caudwell|M|/data/file.png
+1320868955|Andrew Caudwell|D|/data/no_photo.png
+1320868955|Andrew Caudwell|A|/data/user.png
+1320868955|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1320868955|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1320868955|Andrew Caudwell|A|/resources/file.xcf
+1320868955|Andrew Caudwell|A|/resources/user.xcf
+1320868955|Andrew Caudwell|M|/src/core
+1320868955|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1320868955|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1320868955|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1320868955|Andrew Caudwell|M|/src/user.cpp|0066FF
+1320875646|Andrew Caudwell|M|/src/main.cpp|0066FF
+1322514012|Andrew Caudwell|M|/ChangeLog
+1322514012|Andrew Caudwell|M|/data/shaders/text.frag
+1323055326|Andrew Caudwell|M|/ChangeLog
+1323055326|Andrew Caudwell|M|/INSTALL
+1323055326|Andrew Caudwell|M|/configure.ac|AA77FF
+1323055326|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1323055326|Andrew Caudwell|M|/src/gource.h|00AAFF
+1323059090|Andrew Caudwell|A|/m4/m4_ax_boost_base.m4|8855EE
+1323059090|Andrew Caudwell|A|/m4/m4_ax_boost_filesystem.m4|8855EE
+1323059090|Andrew Caudwell|A|/m4/m4_ax_boost_system.m4|8855EE
+1323078060|Andrew Caudwell|M|/gource.win32.cbp
+1323198212|Andrew Caudwell|M|/data/shaders/text.frag
+1323737554|Andrew Caudwell|M|/ChangeLog
+1323737554|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1323749945|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1323750122|Andrew Caudwell|M|/data/file.png
+1323750122|Andrew Caudwell|M|/src/file.cpp|0066FF
+1323752752|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1323752752|Andrew Caudwell|M|/src/user.cpp|0066FF
+1325029748|Andrew Caudwell|M|/configure.ac|AA77FF
+1325038952|Andrew Caudwell|M|/configure.ac|AA77FF
+1325369983|Andrew Caudwell|M|/configure.ac|AA77FF
+1325370130|Andrew Caudwell|M|/Makefile.am|9966FF
+1325370130|Andrew Caudwell|M|/src/action.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/action.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/bloom.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/bloom.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/commitlog.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/core
+1325370130|Andrew Caudwell|M|/src/custom.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/custom.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/file.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/file.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/gource.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/gource_shell.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/key.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/key.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/main.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/slider.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/slider.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/spline.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/spline.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/textbox.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/textbox.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/user.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/user.h|00AAFF
+1325370130|Andrew Caudwell|M|/src/zoomcamera.cpp|0066FF
+1325370130|Andrew Caudwell|M|/src/zoomcamera.h|00AAFF
+1325370131|Andrew Caudwell|M|/src/core
+1325370131|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1325370131|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1325370132|Andrew Caudwell|M|/src/action.cpp|0066FF
+1325370132|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1325370132|Andrew Caudwell|M|/src/spline.cpp|0066FF
+1325370132|Andrew Caudwell|M|/src/user.cpp|0066FF
+1325370133|Andrew Caudwell|M|/src/bloom.cpp|0066FF
+1325370133|Andrew Caudwell|M|/src/bloom.h|00AAFF
+1325370133|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1325370134|Andrew Caudwell|M|/src/core
+1325370134|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1325370135|Andrew Caudwell|M|/gource.win32.cbp
+1325370135|Andrew Caudwell|M|/src/core
+1325370135|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1326080062|Andrew Caudwell|M|/INSTALL
+1326080062|Andrew Caudwell|M|/configure.ac|AA77FF
+1326080139|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1326080139|Andrew Caudwell|M|/src/main.cpp|0066FF
+1326080346|Andrew Caudwell|M|/src/core
+1326080466|Andrew Caudwell|M|/README
+1326169266|Andrew Caudwell|M|/ChangeLog
+1326169266|Andrew Caudwell|M|/src/core
+1326169266|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1326169266|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1326785919|Andrew Caudwell|M|/src/commitlog.cpp|0066FF
+1326785919|Andrew Caudwell|M|/src/commitlog.h|00AAFF
+1326785919|Andrew Caudwell|M|/src/git.cpp|0066FF
+1326785919|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1326785919|Andrew Caudwell|M|/src/gource.h|00AAFF
+1327349600|Andrew Caudwell|M|/src/core
+1327349600|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1327349600|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1327349600|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1327349600|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1327349600|Andrew Caudwell|M|/src/main.cpp|0066FF
+1327374509|Andrew Caudwell|M|/Makefile.am|9966FF
+1327374509|Andrew Caudwell|D|/data/cursor.png
+1327374509|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1327374509|Andrew Caudwell|M|/src/core
+1327374509|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1327374509|Andrew Caudwell|M|/src/gource.h|00AAFF
+1327374509|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1327374509|Andrew Caudwell|M|/src/gource_shell.h|00AAFF
+1327375235|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1327375330|Andrew Caudwell|M|/src/core
+1327545479|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1327545620|Andrew Caudwell|M|/configure.ac|AA77FF
+1327545796|Andrew Caudwell|M|/ChangeLog
+1327609173|Andrew Caudwell|M|/INSTALL
+1327609173|Andrew Caudwell|M|/configure.ac|AA77FF
+1327622846|Andrew Caudwell|M|/ChangeLog
+1327622902|Andrew Caudwell|M|/src/core
+1327716845|Andrew Caudwell|M|/src/key.cpp|0066FF
+1327716912|Andrew Caudwell|M|/ChangeLog
+1327716912|Andrew Caudwell|M|/README
+1327716912|Andrew Caudwell|M|/data/gource.1|00EEEE
+1327716912|Andrew Caudwell|M|/src/core
+1327716912|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1327716912|Andrew Caudwell|M|/src/main.cpp|0066FF
+1328923491|Andrew Caudwell|M|/src/core
+1328923491|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1328923491|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1329086190|Andrew Caudwell|M|/src/core
+1329358354|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1329358354|Andrew Caudwell|M|/src/zoomcamera.cpp|0066FF
+1329358544|Andrew Caudwell|M|/README
+1329358544|Andrew Caudwell|M|/data/gource.1|00EEEE
+1329358544|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1330506391|ArtZub|M|/src/custom.cpp|0066FF
+1330863300|matthiaskrgr|M|/README
+1330863439|matthiaskrgr|M|/INSTALL
+1331155704|Leonardo Fedalto|M|/src/gource_settings.cpp|0066FF
+1331335560|matthiaskrgr|M|/README
+1331335791|matthiaskrgr|M|/data/gource.1|00EEEE
+1331517902|Andrew Caudwell|M|/INSTALL
+1331588088|Andrew Caudwell|M|/INSTALL
+1331703737|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1332711090|Andrew Caudwell|M|/INSTALL
+1333573902|Andrew Caudwell|M|/ChangeLog
+1333573902|Andrew Caudwell|M|/src/core
+1333966628|Andrew Caudwell|M|/src/core
+1333966628|Andrew Caudwell|M|/src/main.cpp|0066FF
+1333966703|Andrew Caudwell|M|/INSTALL
+1333969343|Andrew Caudwell|M|/gource.win32.cbp
+1333969343|Andrew Caudwell|D|/src/apache.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/apache.h|00AAFF
+1333969343|Andrew Caudwell|D|/src/bzr.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/bzr.h|00AAFF
+1333969343|Andrew Caudwell|D|/src/commitlog.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/commitlog.h|00AAFF
+1333969343|Andrew Caudwell|D|/src/custom.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/custom.h|00AAFF
+1333969343|Andrew Caudwell|D|/src/cvs-exp.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/cvs-exp.h|00AAFF
+1333969343|Andrew Caudwell|D|/src/cvs2cl.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/cvs2cl.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/formats/apache.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/formats/apache.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/formats/bzr.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/formats/bzr.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/formats/commitlog.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/formats/commitlog.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/formats/custom.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/formats/custom.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/formats/cvs-exp.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/formats/cvs-exp.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/formats/cvs2cl.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/formats/cvs2cl.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/formats/git.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/formats/git.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/formats/gitraw.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/formats/gitraw.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/formats/hg.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/formats/hg.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/formats/svn.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/formats/svn.h|00AAFF
+1333969343|Andrew Caudwell|D|/src/git.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/git.h|00AAFF
+1333969343|Andrew Caudwell|D|/src/gitraw.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/gitraw.h|00AAFF
+1333969343|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1333969343|Andrew Caudwell|M|/src/gource.h|00AAFF
+1333969343|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1333969343|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1333969343|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/hg.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/hg.h|00AAFF
+1333969343|Andrew Caudwell|A|/src/logmill.cpp|0066FF
+1333969343|Andrew Caudwell|A|/src/logmill.h|00AAFF
+1333969343|Andrew Caudwell|M|/src/main.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/svn.cpp|0066FF
+1333969343|Andrew Caudwell|D|/src/svn.h|00AAFF
+1334021876|Andrew Caudwell|M|/Makefile.am|9966FF
+1334021917|Andrew Caudwell|M|/src/core
+1334021917|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1334021917|Andrew Caudwell|M|/src/gource.h|00AAFF
+1334021917|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1334021917|Andrew Caudwell|M|/src/gource_shell.h|00AAFF
+1334038681|Andrew Caudwell|M|/ChangeLog
+1334038681|Andrew Caudwell|M|/README
+1334038681|Andrew Caudwell|M|/data/gource.1|00EEEE
+1334038681|Andrew Caudwell|M|/src/file.cpp|0066FF
+1334038681|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1334038681|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1334038681|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1334038681|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1334038681|Andrew Caudwell|M|/src/pawn.h|00AAFF
+1334038681|Andrew Caudwell|M|/src/user.cpp|0066FF
+1334116498|Andrew Caudwell|M|/src/.gitignore|888888
+1334123917|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1334192616|Andrew Caudwell|M|/src/logmill.cpp|0066FF
+1334192616|Andrew Caudwell|M|/src/logmill.h|00AAFF
+1334192877|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1334192877|Andrew Caudwell|M|/src/gource_shell.h|00AAFF
+1334192877|Andrew Caudwell|M|/src/main.cpp|0066FF
+1334304353|Andrew Caudwell|M|/data/fonts/FreeSans.ttf
+1334304353|Andrew Caudwell|M|/data/fonts/README
+1334304354|Andrew Caudwell|M|/ChangeLog
+1334304354|Andrew Caudwell|M|/src/core
+1335174103|Andrew Caudwell|M|/gource.win32.cbp
+1336453184|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1337396550|myint|M|/src/core
+1337396550|myint|M|/src/dirnode.cpp|0066FF
+1337396550|myint|M|/src/file.cpp|0066FF
+1337396550|myint|M|/src/gource.cpp|0066FF
+1337396550|myint|M|/src/user.cpp|0066FF
+1337452199|myint|M|/src/gource_settings.cpp|0066FF
+1337567279|Andrew Caudwell|M|/Makefile.am|9966FF
+1337567279|Andrew Caudwell|M|/src/core
+1337567279|Andrew Caudwell|M|/src/main.cpp|0066FF
+1337567296|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1337567296|Andrew Caudwell|M|/src/gource.h|00AAFF
+1337567991|Andrew Caudwell|M|/src/core
+1337732376|Andrew Caudwell|M|/src/core
+1337732751|Andrew Caudwell|M|/src/core
+1337739614|Andrew Caudwell|M|/src/core
+1338033349|Andrew Caudwell|M|/gource.win32.cbp
+1338088733|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1338088733|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1338291550|matthiaskrgr|M|/INSTALL
+1338291550|matthiaskrgr|A|/autogen.sh|FFCC00
+1340836321|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1341897354|Sven-Hendrik Haase|M|/src/logmill.cpp|0066FF
+1341902104|Andrew Caudwell|M|/ChangeLog
+1341902104|Andrew Caudwell|M|/configure.ac|AA77FF
+1341902104|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1341913726|Diego Elio Pettenò|A|/m4/ax_boost_base.m4|8855EE
+1341913726|Diego Elio Pettenò|A|/m4/ax_boost_filesystem.m4|8855EE
+1341913726|Diego Elio Pettenò|A|/m4/ax_boost_system.m4|8855EE
+1341913726|Diego Elio Pettenò|D|/m4/m4_ax_boost_base.m4|8855EE
+1341913726|Diego Elio Pettenò|D|/m4/m4_ax_boost_filesystem.m4|8855EE
+1341913726|Diego Elio Pettenò|D|/m4/m4_ax_boost_system.m4|8855EE
+1351862468|Ron Yorston|M|/src/file.cpp|0066FF
+1351862468|Ron Yorston|M|/src/file.h|00AAFF
+1351862468|Ron Yorston|M|/src/gource.cpp|0066FF
+1351939703|Andrew Caudwell|M|/src/formats/custom.cpp|0066FF
+1351939847|Andrew Caudwell|M|/src/action.cpp|0066FF
+1351939847|Andrew Caudwell|M|/src/action.h|00AAFF
+1351939847|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1351939847|Andrew Caudwell|M|/src/gource.h|00AAFF
+1351940613|Andrew Caudwell|M|/ChangeLog
+1357853770|Andrew Caudwell|M|/ChangeLog
+1357853915|Andrew Caudwell|M|/ChangeLog
+1357894451|Andrew Caudwell|M|/.gitignore|888888
+1357894451|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1357894451|Andrew Caudwell|M|/gource.win32.cbp
+1358102517|Peter Johansson|M|/m4/ax_boost_filesystem.m4|8855EE
+1358102517|Peter Johansson|M|/m4/ax_boost_system.m4|8855EE
+1358111902|Andrew Caudwell|M|/ChangeLog
+1358111902|Andrew Caudwell|M|/configure.ac|AA77FF
+1358111902|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1361411011|Andrew Caudwell|M|/ChangeLog
+1361411011|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1361496889|Andrew Caudwell|M|/Makefile.am|9966FF
+1361496889|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1361496889|Andrew Caudwell|M|/src/gource.h|00AAFF
+1361496889|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1361496889|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1361827419|Andrew Caudwell|A|/src/caption.cpp|0066FF
+1361827419|Andrew Caudwell|A|/src/caption.h|00AAFF
+1362380536|Diego Elio Pettenò|M|/Makefile.am|9966FF
+1362381965|Diego Elio Pettenò|M|/configure.ac|AA77FF
+1362381965|Diego Elio Pettenò|D|/m4/freetype2.m4|8855EE
+1362381965|Diego Elio Pettenò|D|/m4/sdl.m4|8855EE
+1362382113|Diego Elio Pettenò|M|/configure.ac|AA77FF
+1362454060|Andrew Caudwell|M|/ChangeLog
+1363396283|Andrew Caudwell|M|/Makefile.am|9966FF
+1363396283|Andrew Caudwell|M|/src/action.h|00AAFF
+1363396283|Andrew Caudwell|M|/src/core
+1363396283|Andrew Caudwell|M|/src/formats/commitlog.h|00AAFF
+1363396283|Andrew Caudwell|M|/src/formats/hg.cpp|0066FF
+1363396283|Andrew Caudwell|M|/src/main.cpp|0066FF
+1363396283|Andrew Caudwell|M|/src/pawn.cpp|0066FF
+1363396583|Andrew Caudwell|M|/ChangeLog
+1363396583|Andrew Caudwell|M|/README
+1363396583|Andrew Caudwell|M|/data/gource.1|00EEEE
+1363396583|Andrew Caudwell|M|/src/caption.cpp|0066FF
+1363396583|Andrew Caudwell|M|/src/caption.h|00AAFF
+1363396583|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1363396583|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1363396583|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1363691032|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1363691032|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1363691032|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1363691032|Andrew Caudwell|M|/src/logmill.cpp|0066FF
+1363691275|Andrew Caudwell|M|/gource.win32.cbp
+1364787501|Andrew Caudwell|M|/ChangeLog
+1364787501|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1364787501|Andrew Caudwell|M|/src/formats/commitlog.h|00AAFF
+1364787501|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1364799365|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1364863553|Andrew Caudwell|M|/ChangeLog
+1364863553|Andrew Caudwell|M|/src/formats/custom.cpp|0066FF
+1364901050|Andrew Caudwell|M|/gource.win32.cbp
+1364901206|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1364901206|Andrew Caudwell|A|/dev/nsis/welcome.bmp
+1364901206|Andrew Caudwell|A|/dev/nsis/welcome.xcf
+1364901447|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1365420323|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1365803337|Andrew Caudwell|M|/INSTALL
+1365803337|Andrew Caudwell|M|/src/core
+1365988593|Andrew Caudwell|A|/tests/images/\303\201rv\303\255zt\305\261r\305\221 t\303\274k\303\266rf\303\272r\303\263g\303\251p.png
+1365988593|Andrew Caudwell|A|/tests/logs/custom-dir-delete.log|666666
+1365988593|Andrew Caudwell|A|/tests/logs/file-removal.log|666666
+1365988593|Andrew Caudwell|A|/tests/logs/file-to-dir.log|666666
+1365988593|Andrew Caudwell|A|/tests/logs/svn-dir-delete.log|666666
+1365988593|Andrew Caudwell|A|/tests/logs/\303\241rv\303\255zt\305\261r\305\221 t\303\274k\303\266rf\303\272r\303\263g\303\251p.log|666666
+1365988593|Andrew Caudwell|A|/tests/test.conf|00FF00
+1366007645|Andrew Caudwell|A|/tests/logs/utf8.log|666666
+1366007645|Andrew Caudwell|D|/tests/logs/\303\241rv\303\255zt\305\261r\305\221 t\303\274k\303\266rf\303\272r\303\263g\303\251p.log|666666
+1366007645|Andrew Caudwell|M|/tests/test.conf|00FF00
+1366011870|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1366013362|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1366020711|Andrew Caudwell|M|/src/core
+1366020711|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1366020711|Andrew Caudwell|M|/src/formats/commitlog.h|00AAFF
+1366020711|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1366020711|Andrew Caudwell|A|/tests/logs/utf8-caption.log|666666
+1366020711|Andrew Caudwell|M|/tests/test.conf|00FF00
+1366270655|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1366271071|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1366272544|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1366342055|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1366342115|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1366458536|Andrew Caudwell|M|/src/slider.cpp|0066FF
+1366458536|Andrew Caudwell|M|/src/slider.h|00AAFF
+1366462174|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1366462174|Andrew Caudwell|M|/src/gource.h|00AAFF
+1366462308|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1366462374|Andrew Caudwell|M|/src/core
+1366462374|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1366462374|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1366462374|Andrew Caudwell|M|/src/main.cpp|0066FF
+1366498321|Andrew Caudwell|A|/.gitattributes
+1366498321|Andrew Caudwell|M|/.gitignore|888888
+1366498321|Andrew Caudwell|A|/cmd/gource
+1366498321|Andrew Caudwell|A|/cmd/gource.cmd
+1366498321|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1366618099|Andrew Caudwell|M|/ChangeLog
+1366618099|Andrew Caudwell|M|/cmd/gource.cmd
+1366618099|Andrew Caudwell|M|/gource.win32.cbp
+1366618099|Andrew Caudwell|M|/src/core
+1366618099|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1366618099|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1366618099|Andrew Caudwell|M|/src/main.cpp|0066FF
+1366769072|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1366960781|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1368487959|Andrew Caudwell|M|/ChangeLog
+1368487959|Andrew Caudwell|M|/configure.ac|AA77FF
+1368487959|Andrew Caudwell|M|/src/core
+1368487959|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1368519748|Chris Knadler|M|/README
+1368519748|Chris Knadler|M|/data/gource.1|00EEEE
+1370407523|Andrew Caudwell|M|/INSTALL
+1371203121|Andrew Caudwell|M|/INSTALL
+1372151924|Andrew Caudwell|M|/ChangeLog
+1372151924|Andrew Caudwell|M|/README
+1372151924|Andrew Caudwell|M|/data/gource.1|00EEEE
+1372151924|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1372151924|Andrew Caudwell|M|/src/formats/commitlog.h|00AAFF
+1372151924|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1372151924|Andrew Caudwell|M|/src/gource.h|00AAFF
+1372151924|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1372151924|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1372151924|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1372151924|Andrew Caudwell|M|/src/gource_shell.h|00AAFF
+1372151924|Andrew Caudwell|M|/src/logmill.cpp|0066FF
+1372393569|Andrew Caudwell|M|/src/formats/bzr.cpp|0066FF
+1372393569|Andrew Caudwell|M|/src/formats/bzr.h|00AAFF
+1372393569|Andrew Caudwell|M|/src/formats/cvs-exp.cpp|0066FF
+1372393569|Andrew Caudwell|M|/src/formats/cvs-exp.h|00AAFF
+1372393569|Andrew Caudwell|M|/src/formats/cvs2cl.cpp|0066FF
+1372393569|Andrew Caudwell|M|/src/formats/cvs2cl.h|00AAFF
+1372393569|Andrew Caudwell|M|/src/formats/git.cpp|0066FF
+1372393569|Andrew Caudwell|M|/src/formats/git.h|00AAFF
+1372393569|Andrew Caudwell|M|/src/formats/hg.cpp|0066FF
+1372393569|Andrew Caudwell|M|/src/formats/hg.h|00AAFF
+1372393569|Andrew Caudwell|M|/src/formats/svn.cpp|0066FF
+1372393569|Andrew Caudwell|M|/src/formats/svn.h|00AAFF
+1372393569|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1372393569|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1372393569|Andrew Caudwell|M|/src/logmill.cpp|0066FF
+1375405145|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1375410485|Andrew Caudwell|M|/ChangeLog
+1375410485|Andrew Caudwell|M|/INSTALL
+1375410485|Andrew Caudwell|M|/configure.ac|AA77FF
+1375410485|Andrew Caudwell|M|/src/core
+1375410485|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1375410485|Andrew Caudwell|M|/src/gource.h|00AAFF
+1375410485|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1375410485|Andrew Caudwell|M|/src/gource_shell.h|00AAFF
+1375410485|Andrew Caudwell|M|/src/logmill.cpp|0066FF
+1375410485|Andrew Caudwell|M|/src/main.cpp|0066FF
+1375707382|Andrew Caudwell|M|/ChangeLog
+1375707710|Andrew Caudwell|M|/src/core
+1375707710|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1375707710|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1375707752|Andrew Caudwell|M|/src/formats/apache.cpp|0066FF
+1375707752|Andrew Caudwell|M|/src/formats/apache.h|00AAFF
+1376557689|Andrew Caudwell|M|/src/gource.h|00AAFF
+1376557711|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1376557741|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1376557791|Andrew Caudwell|M|/gource.win32.cbp
+1376557858|Andrew Caudwell|M|/src/core
+1376557946|Andrew Caudwell|M|/gource.win32.cbp
+1377582610|Andrew Caudwell|M|/ChangeLog
+1377582610|Andrew Caudwell|M|/src/core
+1377582610|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1377582610|Andrew Caudwell|M|/src/file.cpp|0066FF
+1377582610|Andrew Caudwell|M|/src/file.h|00AAFF
+1377582610|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1382006680|Andrew Caudwell|M|/ChangeLog
+1382006680|Andrew Caudwell|M|/README
+1382006680|Andrew Caudwell|M|/data/gource.1|00EEEE
+1382006680|Andrew Caudwell|M|/src/core
+1382006680|Andrew Caudwell|M|/src/formats/bzr.cpp|0066FF
+1382006680|Andrew Caudwell|M|/src/formats/git.cpp|0066FF
+1382006680|Andrew Caudwell|M|/src/formats/hg.cpp|0066FF
+1382006680|Andrew Caudwell|M|/src/formats/svn.cpp|0066FF
+1382006680|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1382006680|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1382006680|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1385972831|Andrew Caudwell|M|/configure.ac|AA77FF
+1386209613|Andrew Caudwell|M|/Makefile.am|9966FF
+1386209613|Andrew Caudwell|M|/src/core
+1386209613|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1386209613|Andrew Caudwell|M|/src/formats/commitlog.h|00AAFF
+1386209613|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1386209613|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1387255061|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1388798956|Andrew Caudwell|M|/gource.win32.cbp
+1388896508|Andrew Caudwell|M|/src/core
+1389064867|Andrew Caudwell|M|/src/logmill.cpp|0066FF
+1389065028|Andrew Caudwell|M|/README
+1389065028|Andrew Caudwell|M|/data/gource.1|00EEEE
+1389065028|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1392162931|Andrew Caudwell|M|/ChangeLog
+1392162931|Andrew Caudwell|M|/INSTALL
+1392162931|Andrew Caudwell|M|/configure.ac|AA77FF
+1392162931|Andrew Caudwell|M|/src/core
+1394931128|Andrew Caudwell|D|/README-SDL
+1394931128|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1394931128|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1394935507|Andrew Caudwell|M|/.gitignore|888888
+1394935507|Andrew Caudwell|M|/ChangeLog
+1394935507|Andrew Caudwell|M|/INSTALL
+1394935507|Andrew Caudwell|M|/Makefile.am|9966FF
+1394935507|Andrew Caudwell|M|/gource.win32.cbp
+1394935507|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1394935507|Andrew Caudwell|M|/src/gource.h|00AAFF
+1394942568|Andrew Caudwell|M|/configure.ac|AA77FF
+1394953538|Andrew Caudwell|M|/README
+1394953538|Andrew Caudwell|M|/data/gource.1|00EEEE
+1395003588|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1395003818|Andrew Caudwell|M|/README
+1395003818|Andrew Caudwell|M|/data/gource.1|00EEEE
+1395004863|Andrew Caudwell|M|/src/tinyxml/tinystr.cpp|0066FF
+1395004863|Andrew Caudwell|M|/src/tinyxml/tinystr.h|00AAFF
+1395004863|Andrew Caudwell|M|/src/tinyxml/tinyxml.cpp|0066FF
+1395004863|Andrew Caudwell|M|/src/tinyxml/tinyxml.h|00AAFF
+1395004863|Andrew Caudwell|M|/src/tinyxml/tinyxmlerror.cpp|0066FF
+1395004863|Andrew Caudwell|M|/src/tinyxml/tinyxmlparser.cpp|0066FF
+1395103933|Andrew Caudwell|M|/ChangeLog
+1395103933|Andrew Caudwell|M|/README
+1395103933|Andrew Caudwell|M|/data/gource.1|00EEEE
+1395103933|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1395103933|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1395103933|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1395103933|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1395193717|Andrew Caudwell|M|/.gitignore|888888
+1395193717|Andrew Caudwell|M|/configure.ac|AA77FF
+1395193717|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1395462868|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1395721360|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1395721437|Andrew Caudwell|M|/src/core
+1395721437|Andrew Caudwell|M|/src/formats/bzr.cpp|0066FF
+1395721437|Andrew Caudwell|M|/src/formats/git.cpp|0066FF
+1395721437|Andrew Caudwell|M|/src/formats/hg.cpp|0066FF
+1395721437|Andrew Caudwell|M|/src/formats/svn.cpp|0066FF
+1395791610|Andrew Caudwell|M|/src/formats/git.cpp|0066FF
+1395791610|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1398990671|Chris Forbes|M|/src/formats/bzr.cpp|0066FF
+1399031905|Andrew Caudwell|M|/ChangeLog
+1399031905|Andrew Caudwell|M|/configure.ac|AA77FF
+1399031905|Andrew Caudwell|M|/src/core
+1399031905|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1399345953|Andrew Caudwell|M|/ChangeLog
+1399345953|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1399345953|Andrew Caudwell|M|/src/formats/hg.cpp|0066FF
+1399515088|Andrew Caudwell|M|/ChangeLog
+1399515088|Andrew Caudwell|M|/src/formats/hg.cpp|0066FF
+1400023656|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1404255388|Andrew Caudwell|M|/ChangeLog
+1404255388|Andrew Caudwell|M|/configure.ac|AA77FF
+1404255388|Andrew Caudwell|M|/m4/ax_boost_base.m4|8855EE
+1404255388|Andrew Caudwell|M|/m4/ax_boost_filesystem.m4|8855EE
+1404255388|Andrew Caudwell|M|/m4/ax_boost_system.m4|8855EE
+1404255388|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1427667398|Andrew Caudwell|M|/ChangeLog
+1427667398|Andrew Caudwell|M|/configure.ac|AA77FF
+1427667398|Andrew Caudwell|M|/src/core
+1427667398|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1439176020|Andrew Caudwell|M|/README
+1439176020|Andrew Caudwell|M|/data/gource.1|00EEEE
+1440578154|nschloe|A|/spline.cpp/spline.cpp
+1440578154|nschloe|A|/spline.h/spline.h
+1440578155|nschloe|A|/README/issue_33.issue|FF0000
+1440578155|nschloe|A|/dirnode.cpp/issue_33.issue|FF0000
+1440578155|nschloe|A|/gource_settings.cpp/issue_33.issue|FF0000
+1440578155|nschloe|A|/spline.cpp/issue_33.issue|FF0000
+1440578155|nschloe|A|/gource_settings.h/issue_33.issue|FF0000
+1440578155|nschloe|A|/spline.h/issue_33.issue|FF0000
+1449774631|FdezI|A|/test.conf/test.conf
+1449774632|FdezI|A|/commitlog.cpp/issue_46.issue|FF0000
+1449774632|FdezI|A|/test.conf/issue_46.issue|FF0000
+1449774632|FdezI|A|/gource_settings.h/issue_46.issue|FF0000
+1449774632|FdezI|A|/gource_settings.cpp/issue_46.issue|FF0000
+1454467571|Andrew Caudwell|M|/README
+1454467571|Andrew Caudwell|M|/data/gource.1|00EEEE
+1454470085|Andrew Caudwell|M|/README
+1454470085|Andrew Caudwell|M|/data/gource.1|00EEEE
+1454470834|Andrew Caudwell|M|/README
+1454470834|Andrew Caudwell|M|/data/gource.1|00EEEE
+1454589142|meshy|A|/dirnode.h/issue_54.issue|FF0000
+1454589142|meshy|A|/commitlog.cpp/issue_54.issue|FF0000
+1454589142|meshy|A|/dirnode.cpp/issue_54.issue|FF0000
+1454589142|meshy|A|/gource_settings.cpp/issue_54.issue|FF0000
+1454589142|meshy|A|/gource_settings.h/issue_54.issue|FF0000
+1454589142|meshy|A|/git.h/issue_54.issue|FF0000
+1454589142|meshy|A|/custom.cpp/issue_54.issue|FF0000
+1454589142|meshy|A|/file.h/issue_54.issue|FF0000
+1454589142|meshy|A|/gource.cpp/issue_54.issue|FF0000
+1454589142|meshy|A|/git.cpp/issue_54.issue|FF0000
+1454589142|meshy|A|/commitlog.h/issue_54.issue|FF0000
+1454589142|meshy|A|/file.cpp/issue_54.issue|FF0000
+1454589142|meshy|A|/pawn.h/issue_54.issue|FF0000
+1454589142|meshy|A|/pawn.cpp/issue_54.issue|FF0000
+1454589142|meshy|A|/gource.1/issue_54.issue|FF0000
+1463264587|Liz4v|A|/git.cpp/issue_66.issue|FF0000
+1469262949|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1469664776|Andrew Caudwell|M|/ChangeLog
+1469664776|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1469667059|Andrew Caudwell|M|/ChangeLog
+1469667059|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1469680074|Francois Marier|M|/data/gource.1|00EEEE
+1469869268|Olaf Barthel|M|/src/formats/svn.cpp|0066FF
+1469958653|Andrew Caudwell|M|/ChangeLog
+1469958653|Andrew Caudwell|M|/configure.ac|AA77FF
+1469958653|Andrew Caudwell|M|/src/formats/svn.cpp|0066FF
+1469958653|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1473679387|Simon Detheridge|M|/src/file.cpp|0066FF
+1473679387|Simon Detheridge|M|/src/file.h|00AAFF
+1473679387|Simon Detheridge|M|/src/gource_settings.cpp|0066FF
+1473679387|Simon Detheridge|M|/src/gource_settings.h|00AAFF
+1478312428|wertercatt|A|/gource.yml/issue_84.issue|FF0000
+1480112829|Andrew Caudwell|M|/src/formats/git.cpp|0066FF
+1480118039|Andrew Caudwell|M|/ChangeLog
+1484823530|nschloe|A|/dirnode.h/issue_91.issue|FF0000
+1484823530|nschloe|A|/commitlog.cpp/issue_91.issue|FF0000
+1484823530|nschloe|A|/dirnode.cpp/issue_91.issue|FF0000
+1484823530|nschloe|A|/gource_settings.cpp/issue_91.issue|FF0000
+1484823530|nschloe|A|/gource_settings.h/issue_91.issue|FF0000
+1484823530|nschloe|A|/git.h/issue_91.issue|FF0000
+1484823530|nschloe|A|/custom.cpp/issue_91.issue|FF0000
+1484823530|nschloe|A|/file.h/issue_91.issue|FF0000
+1484823530|nschloe|A|/gource.cpp/issue_91.issue|FF0000
+1484823530|nschloe|A|/git.cpp/issue_91.issue|FF0000
+1484823530|nschloe|A|/commitlog.h/issue_91.issue|FF0000
+1484823530|nschloe|A|/file.cpp/issue_91.issue|FF0000
+1484823530|nschloe|A|/pawn.h/issue_91.issue|FF0000
+1484823530|nschloe|A|/pawn.cpp/issue_91.issue|FF0000
+1484823530|nschloe|A|/gource.1/issue_91.issue|FF0000
+1485442666|nschloe|A|/README/issue_93.issue|FF0000
+1485442666|nschloe|A|/gource.h/issue_93.issue|FF0000
+1485442666|nschloe|A|/gource_settings.cpp/issue_93.issue|FF0000
+1485442666|nschloe|A|/gource_settings.h/issue_93.issue|FF0000
+1485442666|nschloe|A|/gource.cpp/issue_93.issue|FF0000
+1485442666|nschloe|A|/ChangeLog/issue_93.issue|FF0000
+1485442666|nschloe|A|/gource.1/issue_93.issue|FF0000
+1486049951|breun|A|/gource.cpp/issue_96.issue|FF0000
+1487139275|Guido Günther|M|/.gitmodules
+1487281662|bfrasure|M|/src/formats/commitlog.cpp|0066FF
+1487281662|bfrasure|M|/src/gource_settings.cpp|0066FF
+1487281662|bfrasure|M|/src/gource_settings.h|00AAFF
+1487281662|bfrasure|M|/tests/test.conf|00FF00
+1487284546|Andrew Caudwell|M|/ChangeLog
+1487284546|Andrew Caudwell|M|/README
+1487284546|Andrew Caudwell|M|/data/gource.1|00EEEE
+1487284546|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1487284546|Andrew Caudwell|M|/tests/test.conf|00FF00
+1487291306|Andrew Caudwell|M|/ChangeLog
+1487291306|Andrew Caudwell|M|/README
+1487291306|Andrew Caudwell|M|/data/gource.1|00EEEE
+1487291306|Andrew Caudwell|M|/src/file.h|00AAFF
+1487291306|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1487291561|FdezI|D|/commitlog.cpp/issue_46.issue
+1487291561|FdezI|D|/test.conf/issue_46.issue
+1487291561|FdezI|D|/gource_settings.h/issue_46.issue
+1487291561|FdezI|D|/gource_settings.cpp/issue_46.issue
+1490207756|Mathieu Alengrin|M|/src/gource.cpp|0066FF
+1491801805|breun|D|/gource.cpp/issue_96.issue
+1491801919|Andrew Caudwell|M|/ChangeLog
+1491801919|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1491890046|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1491964945|Andrew Caudwell|M|/README
+1491964945|Andrew Caudwell|M|/data/gource.1|00EEEE
+1491964945|Andrew Caudwell|M|/src/core
+1491964945|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1491964945|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1491964945|Andrew Caudwell|M|/src/gource_shell.h|00AAFF
+1491964945|Andrew Caudwell|M|/src/main.cpp|0066FF
+1492387297|Henrik Sorensen|M|/src/formats/custom.cpp|0066FF
+1492467877|Andrew Caudwell|M|/ChangeLog
+1492565277|Andrew Caudwell|M|/src/core
+1492576700|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1492578235|Andrew Caudwell|M|/src/core
+1492737637|Andrew Caudwell|M|/ChangeLog
+1492737637|Andrew Caudwell|M|/src/core
+1493118771|Crence|A|/Makefile.am/Makefile.am
+1493118771|Crence|A|/main.cpp/main.cpp
+1493118771|Crence|A|/file_colours.cpp/file_colours.cpp
+1493118771|Crence|A|/gource.h/gource.h
+1493118771|Crence|A|/gource.pro/gource.pro
+1493118771|Crence|A|/file_colours.h/file_colours.h
+1493118772|Crence|A|/commitlog.cpp/issue_104.issue|FF0000
+1493118772|Crence|A|/Makefile.am/issue_104.issue|FF0000
+1493118772|Crence|A|/main.cpp/issue_104.issue|FF0000
+1493118772|Crence|A|/file_colours.cpp/issue_104.issue|FF0000
+1493118772|Crence|A|/gource.h/issue_104.issue|FF0000
+1493118772|Crence|A|/file.cpp/issue_104.issue|FF0000
+1493118772|Crence|A|/gource.pro/issue_104.issue|FF0000
+1493118772|Crence|A|/file_colours.h/issue_104.issue|FF0000
+1495598879|Andrew Caudwell|M|/.gitignore|888888
+1495598879|Andrew Caudwell|M|/INSTALL
+1495598879|Andrew Caudwell|A|/gource.pro
+1495598879|Andrew Caudwell|D|/gource.win32.cbp
+1495599016|Andrew Caudwell|M|/dev/bin/build_win32.pl|FFDD00
+1495599016|Andrew Caudwell|A|/dev/nsis/disclaimer.txt|00DDDD
+1495764666|Andrew Caudwell|M|/.gitignore|888888
+1495764666|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1495764666|Andrew Caudwell|D|/dev/bin/build_win32.pl|FFDD00
+1495764666|Andrew Caudwell|A|/dev/bin/build_win64.pl|FFDD00
+1495764666|Andrew Caudwell|D|/gource.pro
+1495764666|Andrew Caudwell|A|/gource.win64.pro
+1495765343|Andrew Caudwell|M|/INSTALL
+1495767927|Andrew Caudwell|M|/.gitignore|888888
+1495767927|Andrew Caudwell|M|/INSTALL
+1495767927|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1495767927|Andrew Caudwell|A|/gource.pro
+1495767927|Andrew Caudwell|D|/gource.win64.pro
+1496809475|Andrew Caudwell|M|/ChangeLog
+1496891564|Andrew Caudwell|M|/dev/bin/build_win64.pl|FFDD00
+1498624626|Andrew Caudwell|M|/ChangeLog
+1498624626|Andrew Caudwell|M|/INSTALL
+1498624626|Andrew Caudwell|M|/configure.ac|AA77FF
+1499829095|Andrew Caudwell|M|/dev/bin/build_win64.pl|FFDD00
+1502848447|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1503444454|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1504585295|Andrew Caudwell|M|/ChangeLog
+1504585295|Andrew Caudwell|M|/README
+1504585295|Andrew Caudwell|M|/configure.ac|AA77FF
+1504585295|Andrew Caudwell|M|/data/gource.1|00EEEE
+1504585295|Andrew Caudwell|M|/src/core
+1504585295|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1504585295|Andrew Caudwell|M|/src/main.cpp|0066FF
+1504587609|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1504587609|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1504590057|Andrew Caudwell|M|/data/gource.1|00EEEE
+1504651147|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1504660971|Andrew Caudwell|M|/README
+1504660971|Andrew Caudwell|M|/data/gource.1|00EEEE
+1504837212|Andrew Caudwell|M|/ChangeLog
+1504837212|Andrew Caudwell|M|/configure.ac|AA77FF
+1504837212|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1506052653|Andrew Caudwell|M|/ChangeLog
+1506052653|Andrew Caudwell|M|/configure.ac|AA77FF
+1506052653|Andrew Caudwell|M|/src/formats/git.cpp|0066FF
+1506052653|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1506052653|Andrew Caudwell|M|/src/logmill.cpp|0066FF
+1506535993|FallenEXP|A|/action.cpp/action.cpp
+1506535993|FallenEXP|A|/hg.cpp/hg.cpp
+1506535994|FallenEXP|A|/action.cpp/issue_122.issue|FF0000
+1506535994|FallenEXP|A|/file.cpp/issue_122.issue|FF0000
+1506535994|FallenEXP|A|/file.h/issue_122.issue|FF0000
+1506535994|FallenEXP|A|/hg.cpp/issue_122.issue|FF0000
+1508019996|revelt|A|/README.md/issue_123.issue|FF0000
+1513137914|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1518138905|Andrew Caudwell|M|/ChangeLog
+1518138905|Andrew Caudwell|M|/src/core
+1518490197|Andrew Caudwell|M|/README
+1518490197|Andrew Caudwell|M|/data/gource.1|00EEEE
+1518490197|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1519101017|Andrew Caudwell|M|/ChangeLog
+1519101017|Andrew Caudwell|M|/src/core
+1521521260|Andrew Caudwell|M|/ChangeLog
+1521521260|Andrew Caudwell|M|/INSTALL
+1521521260|Andrew Caudwell|M|/Makefile.am|9966FF
+1521521260|Andrew Caudwell|M|/autogen.sh|FFCC00
+1521521260|Andrew Caudwell|M|/configure.ac|AA77FF
+1521521260|Andrew Caudwell|M|/src/core
+1521521260|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1521583749|Andrew Caudwell|M|/configure.ac|AA77FF
+1521583749|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1521627441|Andrew Caudwell|M|/autogen.sh|FFCC00
+1521668717|Andrew Caudwell|M|/README
+1521668717|Andrew Caudwell|M|/data/gource.1|00EEEE
+1521670479|Andrew Caudwell|M|/m4/ax_boost_base.m4|8855EE
+1521670479|Andrew Caudwell|M|/m4/ax_boost_filesystem.m4|8855EE
+1521670479|Andrew Caudwell|M|/m4/ax_boost_system.m4|8855EE
+1521756757|Andrew Caudwell|M|/INSTALL
+1521756757|Andrew Caudwell|M|/Makefile.am|9966FF
+1521756757|Andrew Caudwell|M|/configure.ac|AA77FF
+1522118470|Andrew Caudwell|M|/ChangeLog
+1522122439|Andrew Caudwell|M|/INSTALL
+1522122516|Andrew Caudwell|M|/src/core
+1522197768|Andrew Caudwell|M|/src/core
+1522711975|Andrew Caudwell|M|/ChangeLog
+1522711975|Andrew Caudwell|M|/INSTALL
+1522711975|Andrew Caudwell|M|/Makefile.am|9966FF
+1522711975|Andrew Caudwell|M|/configure.ac|AA77FF
+1522711975|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1522711975|Andrew Caudwell|M|/src/core
+1523488148|Namingwaysway|A|/dirnode.h/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/commitlog.cpp/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/dirnode.cpp/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/gource_settings.cpp/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/gource_settings.h/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/git.h/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/custom.cpp/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/file.h/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/gource.cpp/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/git.cpp/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/commitlog.h/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/file.cpp/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/pawn.h/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/pawn.cpp/issue_147.issue|FF0000
+1523488148|Namingwaysway|A|/gource.1/issue_147.issue|FF0000
+1524545085|revelt|D|/README.md/issue_123.issue
+1527977621|Eric S. Raymond|M|/data/gource.1|00EEEE
+1528855842|Andrew Caudwell|M|/ChangeLog
+1528856390|Andrew Caudwell|M|/README
+1528856390|Andrew Caudwell|M|/data/gource.1|00EEEE
+1528856390|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1535883078|SmallLars|A|/README/issue_167.issue|FF0000
+1535883078|SmallLars|A|/gource.cpp/issue_167.issue|FF0000
+1535883078|SmallLars|A|/gource_settings.h/issue_167.issue|FF0000
+1535883078|SmallLars|A|/gource_settings.cpp/issue_167.issue|FF0000
+1535901742|SmallLars|A|/README/issue_168.issue|FF0000
+1535901742|SmallLars|A|/gource_settings.cpp/issue_168.issue|FF0000
+1535901742|SmallLars|A|/gource_settings.h/issue_168.issue|FF0000
+1535901742|SmallLars|A|/file.cpp/issue_168.issue|FF0000
+1535901742|SmallLars|A|/ChangeLog/issue_168.issue|FF0000
+1535901742|SmallLars|A|/gource.1/issue_168.issue|FF0000
+1537162824|Andrew Caudwell|M|/ChangeLog
+1537162824|Andrew Caudwell|M|/configure.ac|AA77FF
+1537162824|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1537162824|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1537232556|Lars Schmertmann|M|/README
+1537232556|Lars Schmertmann|M|/src/gource.cpp|0066FF
+1537232556|Lars Schmertmann|M|/src/gource_settings.cpp|0066FF
+1537232556|Lars Schmertmann|M|/src/gource_settings.h|00AAFF
+1537237967|Andrew Caudwell|M|/ChangeLog
+1537237967|Andrew Caudwell|M|/data/gource.1|00EEEE
+1537239727|Andrew Caudwell|M|/ChangeLog
+1537239727|Andrew Caudwell|M|/README
+1537239727|Andrew Caudwell|M|/data/gource.1|00EEEE
+1537239727|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1537239727|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1537290325|Lars Schmertmann|M|/README
+1537290325|Lars Schmertmann|M|/src/gource_settings.cpp|0066FF
+1537290325|Lars Schmertmann|M|/src/gource_settings.h|00AAFF
+1537290325|Lars Schmertmann|M|/src/spline.cpp|0066FF
+1537290819|SmallLars|D|/README/issue_167.issue
+1537290819|SmallLars|D|/gource.cpp/issue_167.issue
+1537290819|SmallLars|D|/gource_settings.h/issue_167.issue
+1537290819|SmallLars|D|/gource_settings.cpp/issue_167.issue
+1537483160|Andrew Caudwell|M|/ChangeLog
+1537483160|Andrew Caudwell|M|/README
+1537483160|Andrew Caudwell|M|/data/gource.1|00EEEE
+1537483160|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1537483160|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1537483160|Andrew Caudwell|M|/src/spline.cpp|0066FF
+1537483160|Andrew Caudwell|M|/src/spline.h|00AAFF
+1537541926|Lars Schmertmann|M|/ChangeLog
+1537541926|Lars Schmertmann|M|/README
+1537541926|Lars Schmertmann|M|/data/gource.1|00EEEE
+1537541926|Lars Schmertmann|M|/src/file.cpp|0066FF
+1537541926|Lars Schmertmann|M|/src/gource_settings.cpp|0066FF
+1537541926|Lars Schmertmann|M|/src/gource_settings.h|00AAFF
+1537717361|SmallLars|A|/README/issue_176.issue|FF0000
+1537717361|SmallLars|A|/gource.cpp/issue_176.issue|FF0000
+1537717361|SmallLars|A|/gource_settings.h/issue_176.issue|FF0000
+1537717361|SmallLars|A|/gource_settings.cpp/issue_176.issue|FF0000
+1537758897|nschloe|D|/README/issue_33.issue
+1537758897|nschloe|D|/dirnode.cpp/issue_33.issue
+1537758897|nschloe|D|/gource_settings.cpp/issue_33.issue
+1537758897|nschloe|D|/spline.cpp/issue_33.issue
+1537758897|nschloe|D|/gource_settings.h/issue_33.issue
+1537758897|nschloe|D|/spline.h/issue_33.issue
+1537833906|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1537835278|Victor Lopez|M|/src/formats/commitlog.cpp|0066FF
+1537835278|Victor Lopez|M|/src/gource_settings.cpp|0066FF
+1537835278|Victor Lopez|M|/src/gource_settings.h|00AAFF
+1537836196|Andrew Caudwell|M|/ChangeLog
+1537836196|Andrew Caudwell|M|/README
+1537836196|Andrew Caudwell|M|/data/gource.1|00EEEE
+1537836196|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1537841407|SmallLars|D|/README/issue_168.issue
+1537841407|SmallLars|D|/gource_settings.cpp/issue_168.issue
+1537841407|SmallLars|D|/gource_settings.h/issue_168.issue
+1537841407|SmallLars|D|/file.cpp/issue_168.issue
+1537841407|SmallLars|D|/ChangeLog/issue_168.issue
+1537841407|SmallLars|D|/gource.1/issue_168.issue
+1538024604|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1538024604|Andrew Caudwell|M|/src/gource.h|00AAFF
+1538089736|Andrew Caudwell|M|/ChangeLog
+1538089736|Andrew Caudwell|M|/src/formats/hg.cpp|0066FF
+1538356516|Andrew Caudwell|M|/ChangeLog
+1538356516|Andrew Caudwell|M|/src/action.cpp|0066FF
+1538356516|Andrew Caudwell|M|/src/action.h|00AAFF
+1538356516|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1538356516|Andrew Caudwell|M|/src/file.cpp|0066FF
+1538356516|Andrew Caudwell|M|/src/file.h|00AAFF
+1538356516|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1538356516|Andrew Caudwell|M|/src/gource.h|00AAFF
+1538356516|Andrew Caudwell|M|/src/user.cpp|0066FF
+1538356522|Andrew Caudwell|M|/src/file.cpp|0066FF
+1538356522|Andrew Caudwell|M|/src/file.h|00AAFF
+1538356522|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1538356522|Andrew Caudwell|M|/src/gource.h|00AAFF
+1538529972|Andrew Caudwell|M|/ChangeLog
+1538529972|Andrew Caudwell|M|/src/dirnode.cpp|0066FF
+1538529972|Andrew Caudwell|M|/src/dirnode.h|00AAFF
+1538529972|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1538529990|Andrew Caudwell|M|/src/core
+1551394622|Martin Vassor|M|/src/formats/git.cpp|0066FF
+1551394622|Martin Vassor|M|/src/formats/gitraw.cpp|0066FF
+1558590574|Andrew Caudwell|M|/INSTALL
+1559787297|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1559788335|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1560467991|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1560467991|Andrew Caudwell|M|/src/formats/commitlog.h|00AAFF
+1560467991|Andrew Caudwell|M|/src/formats/git.cpp|0066FF
+1560467991|Andrew Caudwell|M|/src/formats/git.h|00AAFF
+1560467991|Andrew Caudwell|M|/src/formats/gitraw.cpp|0066FF
+1560478257|Andrew Caudwell|M|/ChangeLog
+1560478257|Andrew Caudwell|M|/README
+1560478257|Andrew Caudwell|M|/data/gource.1|00EEEE
+1560478257|Andrew Caudwell|M|/src/file.cpp|0066FF
+1560478257|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1560478257|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1560478257|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1560478257|Andrew Caudwell|M|/src/key.cpp|0066FF
+1560478257|Andrew Caudwell|M|/src/slider.cpp|0066FF
+1560478257|Andrew Caudwell|M|/src/user.cpp|0066FF
+1560478691|Andrew Caudwell|M|/ChangeLog
+1560478691|Andrew Caudwell|M|/Makefile.am|9966FF
+1560478691|Andrew Caudwell|M|/configure.ac|AA77FF
+1561673836|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1564372782|QuantumCoded|A|/deployment-arm64.yml/deployment-arm64.yml
+1564372782|QuantumCoded|A|/deployment.yml/deployment.yml
+1564372782|QuantumCoded|A|/gource.yml/gource.yml
+1564372783|QuantumCoded|A|/deployment-arm64.yml/issue_207.issue|FF0000
+1564372783|QuantumCoded|A|/deployment.yml/issue_207.issue|FF0000
+1564372783|QuantumCoded|A|/gource.yml/issue_207.issue|FF0000
+1564391966|QuantumCoded|D|/deployment-arm64.yml/issue_207.issue
+1564391966|QuantumCoded|D|/deployment.yml/issue_207.issue
+1564391966|QuantumCoded|D|/gource.yml/issue_207.issue
+1567551401|Joey Parrish|M|/src/gource.cpp|0066FF
+1567551401|Joey Parrish|M|/src/gource_settings.cpp|0066FF
+1567551401|Joey Parrish|M|/src/gource_settings.h|00AAFF
+1567551484|Joey Parrish|M|/src/gource.cpp|0066FF
+1567551484|Joey Parrish|M|/src/gource_settings.cpp|0066FF
+1567551484|Joey Parrish|M|/src/gource_settings.h|00AAFF
+1568863531|Andrew Caudwell|M|/src/core
+1568863531|Andrew Caudwell|M|/src/main.cpp|0066FF
+1568864460|Andrew Caudwell|M|/ChangeLog
+1568864460|Andrew Caudwell|M|/README
+1568864460|Andrew Caudwell|M|/data/gource.1|00EEEE
+1568864460|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1570075036|Andrew Caudwell|M|/ChangeLog
+1570075036|Andrew Caudwell|M|/README
+1570075036|Andrew Caudwell|M|/data/gource.1|00EEEE
+1570075036|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1570075036|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1571012475|Carl Colena|M|/src/file.cpp|0066FF
+1571012475|Carl Colena|M|/src/gource.cpp|0066FF
+1571012475|Carl Colena|M|/src/gource.h|00AAFF
+1571012475|Carl Colena|M|/src/gource_settings.cpp|0066FF
+1571012475|Carl Colena|M|/src/gource_settings.h|00AAFF
+1571012475|Carl Colena|M|/src/user.cpp|0066FF
+1571012990|Carl Colena|M|/ChangeLog
+1571012990|Carl Colena|M|/README
+1571027429|Carl Colena|M|/src/gource_settings.cpp|0066FF
+1571103330|Carl Colena|M|/data/gource.1|00EEEE
+1571271173|Andrew Caudwell|M|/ChangeLog
+1571271173|Andrew Caudwell|M|/src/core
+1571449404|Andrew Caudwell|M|/README
+1571449404|Andrew Caudwell|M|/data/gource.1|00EEEE
+1571449404|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1571450936|Andrew Caudwell|M|/ChangeLog
+1571450936|Andrew Caudwell|M|/README
+1571450936|Andrew Caudwell|M|/data/gource.1|00EEEE
+1571450936|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1571960609|Andrew Caudwell|M|/src/core
+1572485745|Andrew Caudwell|M|/dev/bin/build_win64.pl|FFDD00
+1572487748|Andrew Caudwell|M|/dev/bin/build_win64.pl|FFDD00
+1572953169|iCodeIT|A|/dirnode.h/dirnode.h
+1572953169|iCodeIT|A|/commitlog.cpp/commitlog.cpp
+1572953169|iCodeIT|A|/dirnode.cpp/dirnode.cpp
+1572953169|iCodeIT|A|/git.h/git.h
+1572953169|iCodeIT|A|/custom.cpp/custom.cpp
+1572953169|iCodeIT|A|/file.h/file.h
+1572953169|iCodeIT|A|/commitlog.h/commitlog.h
+1572953169|iCodeIT|A|/file.cpp/file.cpp
+1572953169|iCodeIT|A|/pawn.h/pawn.h
+1572953169|iCodeIT|A|/pawn.cpp/pawn.cpp
+1572953170|iCodeIT|A|/dirnode.h/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/commitlog.cpp/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/dirnode.cpp/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/gource_settings.cpp/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/gource_settings.h/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/git.h/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/custom.cpp/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/file.h/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/gource.cpp/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/git.cpp/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/commitlog.h/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/file.cpp/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/pawn.h/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/pawn.cpp/issue_223.issue|FF0000
+1572953170|iCodeIT|A|/gource.1/issue_223.issue|FF0000
+1573087680|Andrew Caudwell|M|/ChangeLog
+1573087680|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1573689194|Andrew Caudwell|M|/INSTALL
+1573689194|Andrew Caudwell|M|/Makefile.am|9966FF
+1573706437|Andrew Caudwell|M|/ChangeLog
+1573706437|Andrew Caudwell|M|/src/core
+1573706437|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1573706437|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1573706606|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1573718186|Andrew Caudwell|M|/configure.ac|AA77FF
+1573719180|Andrew Caudwell|M|/ChangeLog
+1573719180|Andrew Caudwell|M|/src/logmill.cpp|0066FF
+1573719601|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1574315569|SmallLars|D|/README/issue_176.issue
+1574315569|SmallLars|D|/gource.cpp/issue_176.issue
+1574315569|SmallLars|D|/gource_settings.h/issue_176.issue
+1574315569|SmallLars|D|/gource_settings.cpp/issue_176.issue
+1574887229|Marcel Petrick|M|/src/pawn.cpp|0066FF
+1574887229|Marcel Petrick|M|/src/slider.cpp|0066FF
+1582762677|Carl Colena|M|/src/gource_settings.cpp|0066FF
+1582768373|Andrew Caudwell|M|/ChangeLog
+1582768373|Andrew Caudwell|M|/configure.ac|AA77FF
+1582768373|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1582770545|Andrew Caudwell|M|/src/core
+1582770545|Andrew Caudwell|M|/src/formats/git.cpp|0066FF
+1600310714|Andrew Caudwell|M|/ChangeLog
+1600310714|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1600310714|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1600310714|Andrew Caudwell|M|/src/key.cpp|0066FF
+1601880325|0jrp0|A|/README/README
+1601880325|0jrp0|A|/ChangeLog/ChangeLog
+1601880326|0jrp0|A|/README/issue_247.issue|FF0000
+1601880326|0jrp0|A|/gource_settings.cpp/issue_247.issue|FF0000
+1601880326|0jrp0|A|/gource_settings.h/issue_247.issue|FF0000
+1601880326|0jrp0|A|/gource.cpp/issue_247.issue|FF0000
+1601880326|0jrp0|A|/ChangeLog/issue_247.issue|FF0000
+1601880326|0jrp0|A|/gource.1/issue_247.issue|FF0000
+1602571427|Jeff Pitman|M|/src/gource.cpp|0066FF
+1602571427|Jeff Pitman|M|/src/gource.h|00AAFF
+1602571427|Jeff Pitman|M|/src/gource_settings.cpp|0066FF
+1602571427|Jeff Pitman|M|/src/gource_settings.h|00AAFF
+1604384445|Jeff Pitman|M|/ChangeLog
+1604384445|Jeff Pitman|M|/README
+1604384445|Jeff Pitman|M|/data/gource.1|00EEEE
+1604384488|Jeff Pitman|M|/src/gource.cpp|0066FF
+1604384488|Jeff Pitman|M|/src/gource.h|00AAFF
+1604387098|0jrp0|A|/gource.cpp/gource.cpp
+1604387098|0jrp0|A|/gource_shell.cpp/gource_shell.cpp
+1604387099|0jrp0|A|/gource.cpp/issue_251.issue|FF0000
+1604387099|0jrp0|A|/gource_settings.h/issue_251.issue|FF0000
+1604387099|0jrp0|A|/gource_shell.cpp/issue_251.issue|FF0000
+1604387099|0jrp0|A|/gource_settings.cpp/issue_251.issue|FF0000
+1604543746|Jeff Pitman|M|/src/gource.cpp|0066FF
+1604543746|Jeff Pitman|M|/src/gource_settings.cpp|0066FF
+1604543746|Jeff Pitman|M|/src/gource_settings.h|00AAFF
+1604543746|Jeff Pitman|M|/ChangeLog
+1604543746|Jeff Pitman|M|/README
+1604543746|Jeff Pitman|M|/data/gource.1|00EEEE
+1604543746|Jeff Pitman|M|/src/gource.cpp|0066FF
+1604543747|0jrp0|D|/README/issue_247.issue
+1604543747|0jrp0|D|/gource_settings.cpp/issue_247.issue
+1604543747|0jrp0|D|/gource_settings.h/issue_247.issue
+1604543747|0jrp0|D|/gource.cpp/issue_247.issue
+1604543747|0jrp0|D|/ChangeLog/issue_247.issue
+1604543747|0jrp0|D|/gource.1/issue_247.issue
+1604544176|nschloe|D|/README/issue_93.issue
+1604544176|nschloe|D|/gource.h/issue_93.issue
+1604544176|nschloe|D|/gource_settings.cpp/issue_93.issue
+1604544176|nschloe|D|/gource_settings.h/issue_93.issue
+1604544176|nschloe|D|/gource.cpp/issue_93.issue
+1604544176|nschloe|D|/ChangeLog/issue_93.issue
+1604544176|nschloe|D|/gource.1/issue_93.issue
+1619657029|Andrew Caudwell|D|/README
+1619657029|Andrew Caudwell|A|/README.md|00FFFF
+1619657029|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1619657029|Andrew Caudwell|M|/dev/bin/build_win64.pl|FFDD00
+1619661600|Andrew Caudwell|M|/src/core
+1624499260|Andrew Caudwell|M|/src/core
+1639012955|Andrew Caudwell|M|/ChangeLog
+1639012955|Andrew Caudwell|M|/Makefile.am|9966FF
+1639012955|Andrew Caudwell|M|/README.md|00FFFF
+1639012955|Andrew Caudwell|M|/data/gource.1|00EEEE
+1639012955|Andrew Caudwell|M|/src/core
+1639012955|Andrew Caudwell|M|/src/formats/custom.cpp|0066FF
+1639012955|Andrew Caudwell|A|/src/test/datetime_tests.cpp|0066FF
+1639012955|Andrew Caudwell|A|/src/test/main.cpp|0066FF
+1639013066|Andrew Caudwell|M|/ChangeLog
+1639013066|Andrew Caudwell|M|/INSTALL
+1639013066|Andrew Caudwell|M|/Makefile.am|9966FF
+1639013066|Andrew Caudwell|M|/configure.ac|AA77FF
+1639013066|Andrew Caudwell|A|/src/test/regex_tests.cpp|0066FF
+1642039706|Andrew Caudwell|M|/src/formats/git.cpp|0066FF
+1642654921|Andrew Caudwell|M|/dev/bin/build_win64.pl|FFDD00
+1642654921|Andrew Caudwell|M|/gource.pro
+1642654921|Andrew Caudwell|M|/src/formats/commitlog.cpp|0066FF
+1642654921|Andrew Caudwell|M|/src/formats/custom.cpp|0066FF
+1642654921|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1643254984|Kaleb Luedtke|M|/dev/bin/build_win64.pl|FFDD00
+1643848341|Andrew Caudwell|M|/dev/bin/build_tar.pl|FFDD00
+1643849694|Andrew Caudwell|M|/data/beam.png
+1643849694|Andrew Caudwell|M|/data/file.png
+1643849694|Andrew Caudwell|M|/data/user.png
+1643860420|Andrew Caudwell|M|/ChangeLog
+1643860420|Andrew Caudwell|M|/README.md|00FFFF
+1643860420|Andrew Caudwell|M|/data/gource.1|00EEEE
+1643860420|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1643860420|Andrew Caudwell|M|/tests/logs/utf8-caption.log|666666
+1646269868|Andrew Caudwell|M|/src/core
+1646269868|Andrew Caudwell|M|/src/gource_shell.cpp|0066FF
+1646269868|Andrew Caudwell|M|/src/gource_shell.h|00AAFF
+1646282671|Andrew Caudwell|M|/gource.pro
+1646282671|Andrew Caudwell|M|/src/core
+1646282671|Andrew Caudwell|M|/src/file.cpp|0066FF
+1646282671|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1646282671|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1646282671|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1646282671|Andrew Caudwell|M|/src/key.cpp|0066FF
+1646282671|Andrew Caudwell|M|/src/main.cpp|0066FF
+1646282671|Andrew Caudwell|M|/src/user.cpp|0066FF
+1646283207|Andrew Caudwell|M|/ChangeLog
+1648195897|verhovsky|A|/gource.rb/issue_284.issue|FF0000
+1648248713|verhovsky|D|/gource.rb/issue_284.issue
+1650513032|Andrew Caudwell|M|/src/slider.cpp|0066FF
+1650513032|Andrew Caudwell|M|/src/slider.h|00AAFF
+1650514503|Andrew Caudwell|M|/ChangeLog
+1650514503|Andrew Caudwell|M|/configure.ac|AA77FF
+1650514503|Andrew Caudwell|M|/src/core
+1650514503|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1650514503|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1650945011|Andrew Caudwell|M|/src/gource.cpp|0066FF
+1650945658|Andrew Caudwell|M|/ChangeLog
+1650945658|Andrew Caudwell|M|/README.md|00FFFF
+1650945658|Andrew Caudwell|M|/data/gource.1|00EEEE
+1650945658|Andrew Caudwell|M|/src/core
+1650945658|Andrew Caudwell|M|/src/gource_settings.cpp|0066FF
+1650945658|Andrew Caudwell|M|/src/main.cpp|0066FF
+1651116948|Andrew Caudwell|M|/ChangeLog
+1651116948|Andrew Caudwell|M|/src/core
+1651291096|Andrew Caudwell|M|/README.md|00FFFF
+1651291096|Andrew Caudwell|M|/data/gource.1|00EEEE
+1651291845|Andrew Caudwell|M|/ChangeLog
+1665045173|Andrew Caudwell|M|/ChangeLog
+1665045173|Andrew Caudwell|M|/configure.ac|AA77FF
+1665045173|Andrew Caudwell|M|/src/core
+1665045173|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1665103965|Andrew Caudwell|M|/src/core
+1665450342|Andrew Caudwell|M|/ChangeLog
+1669679209|Charles Hardin|M|/m4/ax_boost_base.m4|8855EE
+1669679209|Charles Hardin|M|/m4/ax_boost_filesystem.m4|8855EE
+1669679209|Charles Hardin|M|/m4/ax_boost_system.m4|8855EE
+1669679209|Charles Hardin|M|/m4/ax_check_gl.m4|8855EE
+1669679209|Charles Hardin|M|/m4/ax_check_glu.m4|8855EE
+1669679209|Charles Hardin|M|/m4/ax_check_glut.m4|8855EE
+1669679209|Charles Hardin|D|/m4/ax_lang_compiler_ms.m4|8855EE
+1669679209|Charles Hardin|A|/m4/ax_restore_flags_with_prefix.m4|8855EE
+1669679209|Charles Hardin|A|/m4/ax_save_flags_with_prefix.m4|8855EE
+1669679209|Charles Hardin|M|/configure.ac|AA77FF
+1669679461|Andrew Caudwell|M|/ChangeLog
+1673482956|Andrew Caudwell|M|/README.md|00FFFF
+1673482956|Andrew Caudwell|M|/data/gource.1|00EEEE
+1678927702|Andrew Caudwell|A|/.github/FUNDING.yml|00DD00
+1714430597|Zhizhen He|M|/src/formats/gitraw.cpp|0066FF
+1714430597|Zhizhen He|M|/src/gource.cpp|0066FF
+1714430597|Zhizhen He|M|/src/tinyxml/tinystr.h|00AAFF
+1714430597|Zhizhen He|M|/src/tinyxml/tinyxml.h|00AAFF
+1714430597|Zhizhen He|M|/src/tinyxml/tinyxmlerror.cpp|0066FF
+1714430597|Zhizhen He|M|/src/tinyxml/tinyxmlparser.cpp|0066FF
+1714430597|Zhizhen He|M|/src/user.cpp|0066FF
+1714430833|Michael Cho|M|/src/gource_settings.cpp|0066FF
+1714431041|Andrew Caudwell|M|/ChangeLog
+1714431041|Andrew Caudwell|M|/configure.ac|AA77FF
+1714431041|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1714432343|Andrew Caudwell|M|/README.md|00FFFF
+1714432343|Andrew Caudwell|M|/data/gource.1|00EEEE
+1729212307|Andrew Caudwell|M|/ChangeLog
+1729212307|Andrew Caudwell|M|/configure.ac|AA77FF
+1729212307|Andrew Caudwell|M|/src/core
+1729212307|Andrew Caudwell|M|/src/gource_settings.h|00AAFF
+1734899272|cybercoder-naj|A|/gource_settings.cpp/gource_settings.cpp
+1734899272|cybercoder-naj|A|/gource_settings.h/gource_settings.h
+1734899272|cybercoder-naj|A|/README.md/README.md
+1734899272|cybercoder-naj|A|/git.cpp/git.cpp
+1734899272|cybercoder-naj|A|/gource.1/gource.1
+1734899273|cybercoder-naj|A|/gource_settings.cpp/issue_333.issue|FF0000
+1734899273|cybercoder-naj|A|/gource_settings.h/issue_333.issue|FF0000
+1734899273|cybercoder-naj|A|/README.md/issue_333.issue|FF0000
+1734899273|cybercoder-naj|A|/git.cpp/issue_333.issue|FF0000
+1734899273|cybercoder-naj|A|/gource.1/issue_333.issue|FF0000
+1741524204|Jakob Lorenz|M|/README.md|00FFFF
+1741524204|Jakob Lorenz|M|/data/gource.1|00EEEE
+1741524204|Jakob Lorenz|M|/src/formats/git.cpp|0066FF
+1741524204|Jakob Lorenz|M|/src/gource_settings.cpp|0066FF
+1741524204|Jakob Lorenz|M|/src/gource_settings.h|00AAFF
+1741607131|Jakob Lorenz|M|/README.md|00FFFF
+1741607131|Jakob Lorenz|M|/src/formats/git.cpp|0066FF
+1741657435|Andrew Caudwell|M|/ChangeLog
+1754927511|cho-m|A|/boost-bcp.rb/boost-bcp.rb
+1754927511|cho-m|A|/coal.rb/coal.rb
+1754927511|cho-m|A|/avro-cpp.rb/avro-cpp.rb
+1754927511|cho-m|A|/boost-python3.rb/boost-python3.rb
+1754927511|cho-m|A|/edencommon.rb/edencommon.rb
+1754927511|cho-m|A|/c10t.rb/c10t.rb
+1754927511|cho-m|A|/boost-mpi.rb/boost-mpi.rb
+1754927511|cho-m|A|/augustus.rb/augustus.rb
+1754927511|cho-m|A|/fbthrift.rb/fbthrift.rb
+1754927511|cho-m|A|/cpprestsdk.rb/cpprestsdk.rb
+1754927511|cho-m|A|/fastnetmon.rb/fastnetmon.rb
+1754927511|cho-m|A|/cryfs.rb/cryfs.rb
+1754927511|cho-m|A|/gource.rb/gource.rb
+1754927511|cho-m|A|/folly.rb/folly.rb
+1754927511|cho-m|A|/gnuradio.rb/gnuradio.rb
+1754927511|cho-m|A|/gearman.rb/gearman.rb
+1754927511|cho-m|A|/apngasm.rb/apngasm.rb
+1754927511|cho-m|A|/collada-dom.rb/collada-dom.rb
+1754927511|cho-m|A|/freeling.rb/freeling.rb
+1754927511|cho-m|A|/fuego.rb/fuego.rb
+1754927511|cho-m|A|/boost.rb/boost.rb
+1754927511|cho-m|A|/eigenpy.rb/eigenpy.rb
+1754927511|cho-m|A|/dwarfs.rb/dwarfs.rb
+1754927511|cho-m|A|/bastet.rb/bastet.rb
+1754927511|cho-m|A|/boost-build.rb/boost-build.rb
+1754927511|cho-m|A|/dspdfviewer.rb/dspdfviewer.rb
+1754927511|cho-m|A|/colmap.rb/colmap.rb
+1754927511|cho-m|A|/boost@1.89/boost@1.89
+1754927511|cho-m|A|/clang-include-graph.rb/clang-include-graph.rb
+1754927511|cho-m|A|/graph-tool.rb/graph-tool.rb
+1754927512|cho-m|A|/boost-bcp.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/coal.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/avro-cpp.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/boost-python3.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/edencommon.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/c10t.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/boost-mpi.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/augustus.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/fbthrift.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/cpprestsdk.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/fastnetmon.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/cryfs.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/gource.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/folly.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/gnuradio.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/gearman.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/apngasm.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/collada-dom.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/freeling.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/fuego.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/boost.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/eigenpy.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/dwarfs.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/bastet.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/boost-build.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/dspdfviewer.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/colmap.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/boost@1.89/issue_348.issue|FF0000
+1754927512|cho-m|A|/clang-include-graph.rb/issue_348.issue|FF0000
+1754927512|cho-m|A|/graph-tool.rb/issue_348.issue|FF0000
+1755050169|Andrew Caudwell|M|/ChangeLog
+1755050169|Andrew Caudwell|M|/INSTALL
+1755050169|Andrew Caudwell|M|/configure.ac|AA77FF
+1755050169|Andrew Caudwell|M|/m4/ax_boost_base.m4|8855EE
+1755050169|Andrew Caudwell|D|/m4/ax_boost_system.m4|8855EE
+1755100315|cho-m|D|/boost-bcp.rb/issue_348.issue
+1755100315|cho-m|D|/coal.rb/issue_348.issue
+1755100315|cho-m|D|/avro-cpp.rb/issue_348.issue
+1755100315|cho-m|D|/boost-python3.rb/issue_348.issue
+1755100315|cho-m|D|/edencommon.rb/issue_348.issue
+1755100315|cho-m|D|/c10t.rb/issue_348.issue
+1755100315|cho-m|D|/boost-mpi.rb/issue_348.issue
+1755100315|cho-m|D|/augustus.rb/issue_348.issue
+1755100315|cho-m|D|/fbthrift.rb/issue_348.issue
+1755100315|cho-m|D|/cpprestsdk.rb/issue_348.issue
+1755100315|cho-m|D|/fastnetmon.rb/issue_348.issue
+1755100315|cho-m|D|/cryfs.rb/issue_348.issue
+1755100315|cho-m|D|/gource.rb/issue_348.issue
+1755100315|cho-m|D|/folly.rb/issue_348.issue
+1755100315|cho-m|D|/gnuradio.rb/issue_348.issue
+1755100315|cho-m|D|/gearman.rb/issue_348.issue
+1755100315|cho-m|D|/apngasm.rb/issue_348.issue
+1755100315|cho-m|D|/collada-dom.rb/issue_348.issue
+1755100315|cho-m|D|/freeling.rb/issue_348.issue
+1755100315|cho-m|D|/fuego.rb/issue_348.issue
+1755100315|cho-m|D|/boost.rb/issue_348.issue
+1755100315|cho-m|D|/eigenpy.rb/issue_348.issue
+1755100315|cho-m|D|/dwarfs.rb/issue_348.issue
+1755100315|cho-m|D|/bastet.rb/issue_348.issue
+1755100315|cho-m|D|/boost-build.rb/issue_348.issue
+1755100315|cho-m|D|/dspdfviewer.rb/issue_348.issue
+1755100315|cho-m|D|/colmap.rb/issue_348.issue
+1755100315|cho-m|D|/boost@1.89/issue_348.issue
+1755100315|cho-m|D|/clang-include-graph.rb/issue_348.issue
+1755100315|cho-m|D|/graph-tool.rb/issue_348.issue
+1767649796|Andrew Caudwell|M|/ChangeLog
+1767649796|Andrew Caudwell|M|/src/core
+1767669693|Andrew Caudwell|M|/src/core
