@@ -1,0 +1,37 @@
+# Configuración de los repositorios. Agregar uno nuevo = agregar un bloque [repos.<clave>].
+# Todo lo que no se redefine en el repositorio se toma de [defaults].
+
+[defaults]
+issue_user      = "GitHub Issues"   # usuario virtual que "aparece" en Gource al abrir/cerrar issues
+depth           = 2                 # profundidad máxima del directorio donde se inyecta el issue
+tau             = 0.20              # umbral de similitud TF-IDF del nivel heurístico (calibrar)
+top_k           = 3                 # máximo de commits que propone la heurística por issue
+grace_days      = 3                 # holgura tras el cierre del issue (ventana temporal)
+touch_events    = false             # true = emite un evento M en cada commit enlazado
+max_issues      = 0                 # 0 = sin límite (cuenta solo issues, no PRs)
+seconds_per_day = 0.5               # velocidad de la animación en Gource
+resolution      = "1280x720"
+caption_duration = 4                # segundos que permanece cada subtítulo (< mitad de un mes simulado)
+bug_labels      = ["bug", "defect", "crash", "regression"]
+feature_labels  = ["enhancement", "feature", "improvement"]
+
+[repos.jetuml]
+full_name = "prmr/JetUML"
+
+[repos.freecodecamp]
+full_name  = "freeCodeCamp/freeCodeCamp"
+since      = "2024-01-01"           # el repositorio es masivo: se trabaja por ventana de tiempo
+#until      = "2024-06-30"
+max_issues = 3000
+
+[repos.latex_workshop]
+full_name = "James-Yu/LaTeX-Workshop"
+since     = "2023-01-01"
+
+[repos.flask]
+full_name = "pallets/flask"
+since     = "2018-01-01"
+
+[repos.realm_java]
+full_name = "realm/realm-java"
+since     = "2019-01-01"
